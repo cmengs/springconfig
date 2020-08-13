@@ -1,0 +1,1292 @@
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-25T02:41:47+08:00)
+Maven home: D:\tools\apache-maven-3.6.0\bin\..
+Java version: 1.8.0_202, vendor: Oracle Corporation, runtime: C:\Program Files (x86)\Java\jdk1.8.0_202\jre
+Default locale: zh_CN, platform encoding: GBK
+OS name: "windows 10", version: "10.0", arch: "x86", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from D:\tools\apache-maven-3.6.0\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\Administrator\.m2\settings.xml
+[DEBUG] Reading global toolchains from D:\tools\apache-maven-3.6.0\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\Administrator\.m2\toolchains.xml
+[DEBUG] Using local repository at D:\projects\repo
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for D:\projects\repo
+[INFO] Scanning for projects...
+[DEBUG] Using mirror gagcmaven (http://192.168.10.87:8081/repository/maven-public/) for central (https://repo.maven.apache.org/maven2).
+[DEBUG] Extension realms for project cn.m:SpringConfigServer:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:2.3.2.RELEASE: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:2.3.2.RELEASE: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/codehaus/mojo/flatten-maven-plugin/1.2.4/flatten-maven-plugin-1.2.4.pom
+Progress (1): flatten-maven-plugin-1.2.4.pom (4.1/9.7 kB)Progress (1): flatten-maven-plugin-1.2.4.pom (7.8/9.7 kB)Progress (1): flatten-maven-plugin-1.2.4.pom (9.7 kB)                                                         Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/codehaus/mojo/flatten-maven-plugin/1.2.4/flatten-maven-plugin-1.2.4.pom (9.7 kB at 10 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\codehaus\mojo\flatten-maven-plugin\1.2.4\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\codehaus\mojo\flatten-maven-plugin\1.2.4\flatten-maven-plugin-1.2.4.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/codehaus/mojo/flatten-maven-plugin/1.2.4/flatten-maven-plugin-1.2.4.jar
+Progress (1): flatten-maven-plugin-1.2.4.jar (2.4/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (6.5/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (11/113 kB) Progress (1): flatten-maven-plugin-1.2.4.jar (15/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (19/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (23/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (27/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (31/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (35/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (39/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (43/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (47/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (52/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (56/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (60/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (64/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (68/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (72/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (76/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (80/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (84/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (88/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (92/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (97/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (101/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (105/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (109/113 kB)Progress (1): flatten-maven-plugin-1.2.4.jar (113 kB)                                                         Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/codehaus/mojo/flatten-maven-plugin/1.2.4/flatten-maven-plugin-1.2.4.jar (113 kB at 258 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\codehaus\mojo\flatten-maven-plugin\1.2.4\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\codehaus\mojo\flatten-maven-plugin\1.2.4\flatten-maven-plugin-1.2.4.jar.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/flywaydb/flyway-maven-plugin/6.4.4/flyway-maven-plugin-6.4.4.pom
+Progress (1): flyway-maven-plugin-6.4.4.pom (3.8/4.5 kB)Progress (1): flyway-maven-plugin-6.4.4.pom (4.5 kB)                                                        Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/flywaydb/flyway-maven-plugin/6.4.4/flyway-maven-plugin-6.4.4.pom (4.5 kB at 9.6 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\flywaydb\flyway-maven-plugin\6.4.4\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\flywaydb\flyway-maven-plugin\6.4.4\flyway-maven-plugin-6.4.4.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/flywaydb/flyway-parent/6.4.4/flyway-parent-6.4.4.pom
+Progress (1): flyway-parent-6.4.4.pom (3.8/25 kB)Progress (1): flyway-parent-6.4.4.pom (7.9/25 kB)Progress (1): flyway-parent-6.4.4.pom (12/25 kB) Progress (1): flyway-parent-6.4.4.pom (16/25 kB)Progress (1): flyway-parent-6.4.4.pom (20/25 kB)Progress (1): flyway-parent-6.4.4.pom (24/25 kB)Progress (1): flyway-parent-6.4.4.pom (25 kB)                                                Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/flywaydb/flyway-parent/6.4.4/flyway-parent-6.4.4.pom (25 kB at 85 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\flywaydb\flyway-parent\6.4.4\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\flywaydb\flyway-parent\6.4.4\flyway-parent-6.4.4.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/flywaydb/flyway-maven-plugin/6.4.4/flyway-maven-plugin-6.4.4.jar
+Progress (1): flyway-maven-plugin-6.4.4.jar (1.0/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (5.1/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (9.2/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (13/109 kB) Progress (1): flyway-maven-plugin-6.4.4.jar (17/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (21/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (26/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (30/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (34/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (38/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (42/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (46/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (50/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (54/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (58/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (62/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (67/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (71/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (75/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (79/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (83/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (87/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (91/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (95/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (99/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (103/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (107/109 kB)Progress (1): flyway-maven-plugin-6.4.4.jar (109 kB)                                                        Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/flywaydb/flyway-maven-plugin/6.4.4/flyway-maven-plugin-6.4.4.jar (109 kB at 306 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\flywaydb\flyway-maven-plugin\6.4.4\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\flywaydb\flyway-maven-plugin\6.4.4\flyway-maven-plugin-6.4.4.jar.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/apache/johnzon/johnzon-maven-plugin/1.2.8/johnzon-maven-plugin-1.2.8.pom
+Progress (1): johnzon-maven-plugin-1.2.8.pom (3.6 kB)                                                     Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/apache/johnzon/johnzon-maven-plugin/1.2.8/johnzon-maven-plugin-1.2.8.pom (3.6 kB at 11 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\apache\johnzon\johnzon-maven-plugin\1.2.8\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\apache\johnzon\johnzon-maven-plugin\1.2.8\johnzon-maven-plugin-1.2.8.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/apache/johnzon/johnzon/1.2.8/johnzon-1.2.8.pom
+Progress (1): johnzon-1.2.8.pom (3.8/27 kB)Progress (1): johnzon-1.2.8.pom (7.9/27 kB)Progress (1): johnzon-1.2.8.pom (12/27 kB) Progress (1): johnzon-1.2.8.pom (16/27 kB)Progress (1): johnzon-1.2.8.pom (20/27 kB)Progress (1): johnzon-1.2.8.pom (24/27 kB)Progress (1): johnzon-1.2.8.pom (27 kB)                                          Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/apache/johnzon/johnzon/1.2.8/johnzon-1.2.8.pom (27 kB at 98 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\apache\johnzon\johnzon\1.2.8\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\apache\johnzon\johnzon\1.2.8\johnzon-1.2.8.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/apache/johnzon/johnzon-maven-plugin/1.2.8/johnzon-maven-plugin-1.2.8.jar
+Progress (1): johnzon-maven-plugin-1.2.8.jar (3.8/26 kB)Progress (1): johnzon-maven-plugin-1.2.8.jar (7.9/26 kB)Progress (1): johnzon-maven-plugin-1.2.8.jar (12/26 kB) Progress (1): johnzon-maven-plugin-1.2.8.jar (16/26 kB)Progress (1): johnzon-maven-plugin-1.2.8.jar (20/26 kB)Progress (1): johnzon-maven-plugin-1.2.8.jar (24/26 kB)Progress (1): johnzon-maven-plugin-1.2.8.jar (26 kB)                                                       Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/apache/johnzon/johnzon-maven-plugin/1.2.8/johnzon-maven-plugin-1.2.8.jar (26 kB at 65 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\apache\johnzon\johnzon-maven-plugin\1.2.8\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\apache\johnzon\johnzon-maven-plugin\1.2.8\johnzon-maven-plugin-1.2.8.jar.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/jooq/jooq-codegen-maven/3.13.3/jooq-codegen-maven-3.13.3.pom
+Progress (1): jooq-codegen-maven-3.13.3.pom (3.4 kB)                                                    Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/jooq/jooq-codegen-maven/3.13.3/jooq-codegen-maven-3.13.3.pom (3.4 kB at 10 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\jooq\jooq-codegen-maven\3.13.3\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\jooq\jooq-codegen-maven\3.13.3\jooq-codegen-maven-3.13.3.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/jooq/jooq-parent/3.13.3/jooq-parent-3.13.3.pom
+Progress (1): jooq-parent-3.13.3.pom (4.1/21 kB)Progress (1): jooq-parent-3.13.3.pom (7.8/21 kB)Progress (1): jooq-parent-3.13.3.pom (12/21 kB) Progress (1): jooq-parent-3.13.3.pom (16/21 kB)Progress (1): jooq-parent-3.13.3.pom (20/21 kB)Progress (1): jooq-parent-3.13.3.pom (21 kB)                                               Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/jooq/jooq-parent/3.13.3/jooq-parent-3.13.3.pom (21 kB at 42 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\jooq\jooq-parent\3.13.3\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\jooq\jooq-parent\3.13.3\jooq-parent-3.13.3.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/jooq/jooq-codegen-maven/3.13.3/jooq-codegen-maven-3.13.3.jar
+Progress (1): jooq-codegen-maven-3.13.3.jar (4.1/17 kB)Progress (1): jooq-codegen-maven-3.13.3.jar (7.8/17 kB)Progress (1): jooq-codegen-maven-3.13.3.jar (12/17 kB) Progress (1): jooq-codegen-maven-3.13.3.jar (16/17 kB)Progress (1): jooq-codegen-maven-3.13.3.jar (17 kB)                                                      Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/jooq/jooq-codegen-maven/3.13.3/jooq-codegen-maven-3.13.3.jar (17 kB at 62 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\jooq\jooq-codegen-maven\3.13.3\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\jooq\jooq-codegen-maven\3.13.3\jooq-codegen-maven-3.13.3.jar.lastUpdated
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM cn.m:SpringConfigServer:jar:0.0.1-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: cn.m:SpringConfigServer:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [compile, dependency:tree]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ----------------------< cn.m:SpringConfigServer >-----------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM cn.m:SpringConfigServer:jar:0.0.1-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       cn.m:SpringConfigServer:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): [test]
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [gagcmaven (http://192.168.10.87:8081/repository/maven-public/, default, releases)]
+[DEBUG] Repositories (plugins)     : [gagcmaven (http://192.168.10.87:8081/repository/maven-public/, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <delimiters>
+    <delimiter>@</delimiter>
+  </delimiters>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true">false</useDefaultDelimiters>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">true</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-dependency-plugin:3.1.2:tree (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendOutput default-value="false">${appendOutput}</appendOutput>
+  <excludes>${excludes}</excludes>
+  <includes>${includes}</includes>
+  <outputFile>${outputFile}</outputFile>
+  <outputType default-value="text">${outputType}</outputType>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <scope>${scope}</scope>
+  <session default-value="${session}"/>
+  <skip default-value="false">${skip}</skip>
+  <tokens default-value="standard">${tokens}</tokens>
+  <verbose default-value="false">${verbose}</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=4281300, ConflictMarker.markTime=7916500, ConflictMarker.nodeCount=663, ConflictIdSorter.graphTime=3281000, ConflictIdSorter.topsortTime=1422700, ConflictIdSorter.conflictIdCount=175, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=24462800, ConflictResolver.conflictItemCount=383, DefaultDependencyCollector.collectTime=1083962300, DefaultDependencyCollector.transformTime=43814600}
+[DEBUG] cn.m:SpringConfigServer:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-amqp:jar:2.3.2.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.2.3:compile (version managed from 1.2.3)
+[DEBUG]                ch.qos.logback:logback-core:jar:1.2.3:compile (version managed from 1.2.3)
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile (version managed from 2.13.3)
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.13.3:compile (version managed from 2.13.3)
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:1.7.30:compile (version managed from 1.7.30)
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile (version managed from 1.3.5)
+[DEBUG]       org.springframework:spring-messaging:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          org.springframework:spring-beans:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]       org.springframework.amqp:spring-rabbit:jar:2.2.9.RELEASE:compile (version managed from 2.2.9.RELEASE)
+[DEBUG]          com.rabbitmq:amqp-client:jar:5.9.0:compile (version managed from 5.7.3)
+[DEBUG]          org.springframework.amqp:spring-amqp:jar:2.2.9.RELEASE:compile (version managed from 2.2.9.RELEASE)
+[DEBUG]          org.springframework:spring-context:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]             org.springframework:spring-expression:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          org.springframework:spring-tx:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]    org.springframework.cloud:spring-cloud-bus:jar:2.2.3.RELEASE:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-starter:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-context:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-commons:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]       org.springframework.cloud:spring-cloud-stream:jar:3.0.7.RELEASE:compile (version managed from 3.0.7.RELEASE)
+[DEBUG]          org.springframework.retry:spring-retry:jar:1.2.5.RELEASE:compile (version managed from 1.2.5.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-function-context:jar:3.0.9.RELEASE:compile (version managed from 3.0.9.RELEASE)
+[DEBUG]             net.jodah:typetools:jar:0.6.2:compile
+[DEBUG]             org.springframework.cloud:spring-cloud-function-core:jar:3.0.9.RELEASE:compile (version managed from 3.0.9.RELEASE)
+[DEBUG]       org.springframework.integration:spring-integration-core:jar:5.3.2.RELEASE:compile (version managed from 5.3.2.RELEASE)
+[DEBUG]          org.springframework:spring-aop:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          io.projectreactor:reactor-core:jar:3.3.8.RELEASE:compile (version managed from 3.3.8.RELEASE)
+[DEBUG]             org.reactivestreams:reactive-streams:jar:1.0.3:compile (version managed from 1.0.3)
+[DEBUG]    org.springframework.cloud:spring-cloud-config-server:jar:2.2.4.RELEASE:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-config-client:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework:spring-web:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]       org.springframework.boot:spring-boot-starter-actuator:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             org.springframework.boot:spring-boot-actuator:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]          io.micrometer:micrometer-core:jar:1.5.3:compile (version managed from 1.5.3)
+[DEBUG]             org.hdrhistogram:HdrHistogram:jar:2.1.12:compile
+[DEBUG]             org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[DEBUG]       org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-json:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]             com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]          org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.37:compile (version managed from 9.0.37)
+[DEBUG]             org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.37:compile (version managed from 9.0.37)
+[DEBUG]          org.springframework:spring-webmvc:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]       org.springframework.boot:spring-boot-starter-validation:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]          org.glassfish:jakarta.el:jar:3.0.3:compile (version managed from 3.0.3)
+[DEBUG]          org.hibernate.validator:hibernate-validator:jar:6.1.5.Final:compile (version managed from 6.1.5.Final)
+[DEBUG]             jakarta.validation:jakarta.validation-api:jar:2.0.2:compile (version managed from 2.0.2)
+[DEBUG]             org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile (version managed from 3.3.2.Final)
+[DEBUG]             com.fasterxml:classmate:jar:1.5.1:compile (version managed from 1.3.4)
+[DEBUG]       org.springframework.security:spring-security-crypto:jar:5.3.3.RELEASE:compile (version managed from 5.3.3.RELEASE)
+[DEBUG]       org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE:compile (version managed from 1.0.9.RELEASE) (exclusions managed)
+[DEBUG]          org.bouncycastle:bcpkix-jdk15on:jar:1.64:compile
+[DEBUG]             org.bouncycastle:bcprov-jdk15on:jar:1.64:compile
+[DEBUG]       org.eclipse.jgit:org.eclipse.jgit:jar:5.1.3.201810200350-r:compile (version managed from 5.1.3.201810200350-r)
+[DEBUG]          com.jcraft:jsch:jar:0.1.54:compile (version managed from 0.1.54)
+[DEBUG]          com.jcraft:jzlib:jar:1.1.1:compile
+[DEBUG]          com.googlecode.javaewah:JavaEWAH:jar:1.1.6:compile
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.30:compile (version managed from 1.7.2)
+[DEBUG]       org.eclipse.jgit:org.eclipse.jgit.http.apache:jar:5.1.3.201810200350-r:compile (version managed from 5.1.3.201810200350-r)
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.4.13:compile (version managed from 4.4.9)
+[DEBUG]       org.yaml:snakeyaml:jar:1.26:compile (version managed from 1.26)
+[DEBUG]       com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.4.RELEASE:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-aop:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             org.aspectj:aspectjweaver:jar:1.9.6:compile (version managed from 1.9.6)
+[DEBUG]       org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]       com.netflix.eureka:eureka-client:jar:1.9.25:compile (version managed from 1.9.25) (exclusions managed)
+[DEBUG]          org.codehaus.jettison:jettison:jar:1.3.7:compile
+[DEBUG]             stax:stax-api:jar:1.0.1:compile
+[DEBUG]          com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:compile (version managed from 0.3.0)
+[DEBUG]             com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[DEBUG]                commons-jxpath:commons-jxpath:jar:1.3:runtime
+[DEBUG]                joda-time:joda-time:jar:2.3:runtime
+[DEBUG]                org.antlr:antlr-runtime:jar:3.4:runtime
+[DEBUG]                   org.antlr:stringtemplate:jar:3.2.1:runtime
+[DEBUG]                   antlr:antlr:jar:2.7.7:runtime (version managed from 2.7.7)
+[DEBUG]                com.google.code.gson:gson:jar:2.8.6:runtime (version managed from 2.1)
+[DEBUG]             org.apache.commons:commons-math:jar:2.2:runtime
+[DEBUG]          com.netflix.archaius:archaius-core:jar:0.7.6:compile (version managed from 0.7.6) (exclusions managed)
+[DEBUG]             com.google.guava:guava:jar:29.0-jre:compile (version managed from 16.0)
+[DEBUG]                com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]                com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]                org.checkerframework:checker-qual:jar:2.11.1:compile
+[DEBUG]                com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[DEBUG]                com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[DEBUG]          javax.ws.rs:jsr311-api:jar:1.1.1:compile
+[DEBUG]          com.netflix.servo:servo-core:jar:0.12.21:compile (version managed from 0.12.21) (exclusions managed)
+[DEBUG]          com.sun.jersey:jersey-core:jar:1.19.1:compile
+[DEBUG]          com.sun.jersey:jersey-client:jar:1.19.1:compile
+[DEBUG]          com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:compile
+[DEBUG]          commons-configuration:commons-configuration:jar:1.10:compile
+[DEBUG]             commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]          com.google.inject:guice:jar:4.1.0:compile
+[DEBUG]             javax.inject:javax.inject:jar:1:compile
+[DEBUG]             aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]       com.netflix.eureka:eureka-core:jar:1.9.25:compile (version managed from 1.9.25) (exclusions managed)
+[DEBUG]          com.fasterxml.woodstox:woodstox-core:jar:5.3.0:compile
+[DEBUG]             org.codehaus.woodstox:stax2-api:jar:4.2:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          com.netflix.ribbon:ribbon:jar:2.3.0:compile (version managed from 2.3.0) (exclusions managed)
+[DEBUG]             com.netflix.ribbon:ribbon-transport:jar:2.3.0:runtime
+[DEBUG]                io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[DEBUG]                io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[DEBUG]             com.netflix.hystrix:hystrix-core:jar:1.5.18:runtime (version managed from 1.4.3) (exclusions managed)
+[DEBUG]             io.reactivex:rxnetty:jar:0.4.9:runtime
+[DEBUG]          com.netflix.ribbon:ribbon-core:jar:2.3.0:compile (version managed from 2.3.0) (exclusions managed)
+[DEBUG]          com.netflix.ribbon:ribbon-httpclient:jar:2.3.0:compile (version managed from 2.3.0) (exclusions managed)
+[DEBUG]             commons-collections:commons-collections:jar:3.2.2:runtime
+[DEBUG]             com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime (version managed from 0.1.1)
+[DEBUG]          com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0:compile (version managed from 2.3.0) (exclusions managed)
+[DEBUG]             com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[DEBUG]          io.reactivex:rxjava:jar:1.3.8:compile (version managed from 1.3.8)
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-loadbalancer:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]             io.projectreactor.addons:reactor-extra:jar:3.3.3.RELEASE:compile (version managed from 3.3.3.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-cache:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             org.springframework:spring-context-support:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          com.stoyanr:evictor:jar:1.0.0:compile
+[DEBUG]       com.netflix.ribbon:ribbon-eureka:jar:2.3.0:compile (version managed from 2.3.0) (exclusions managed)
+[DEBUG]       com.thoughtworks.xstream:xstream:jar:1.4.11.1:compile
+[DEBUG]          xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]          xpp3:xpp3_min:jar:1.1.4c:compile
+[DEBUG]    org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:3.0.7.RELEASE:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:3.0.7.RELEASE:compile (version managed from 3.0.7.RELEASE)
+[DEBUG]          org.springframework.integration:spring-integration-amqp:jar:5.3.2.RELEASE:compile (version managed from 5.3.2.RELEASE)
+[DEBUG]          com.rabbitmq:http-client:jar:2.1.0.RELEASE:compile
+[DEBUG]       org.springframework.integration:spring-integration-jmx:jar:5.3.2.RELEASE:compile (version managed from 5.3.2.RELEASE)
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.5.12:compile (version managed from 4.5.6) (exclusions managed)
+[DEBUG]          commons-codec:commons-codec:jar:1.14:compile (version managed from 1.11)
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:2.3.2.RELEASE:test (version managed from 2.3.2.RELEASE)
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.2.RELEASE:test (version managed from 2.3.2.RELEASE)
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.4.0:test (version managed from 2.4.0)
+[DEBUG]          net.minidev:json-smart:jar:2.3:test (version managed from 2.3)
+[DEBUG]             net.minidev:accessors-smart:jar:1.2:test
+[DEBUG]                org.ow2.asm:asm:jar:5.0.4:test
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test (version managed from 2.3.3)
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:1.2.2:test (version managed from 1.2.2)
+[DEBUG]       org.assertj:assertj-core:jar:3.16.1:test (version managed from 3.16.1)
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:test (version managed from 2.2)
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]             org.apiguardian:apiguardian-api:jar:1.1.0:test
+[DEBUG]             org.opentest4j:opentest4j:jar:1.2.0:test
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.6.2:test (version managed from 1.6.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.6.2:test (version managed from 1.6.2)
+[DEBUG]       org.mockito:mockito-core:jar:3.3.3:test (version managed from 3.3.3)
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.10.13:test (version managed from 1.10.5)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.10.13:test (version managed from 1.10.5)
+[DEBUG]          org.objenesis:objenesis:jar:2.6:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:3.3.3:test (version managed from 3.3.3)
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.0:test (version managed from 1.5.0)
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          org.springframework:spring-jcl:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]       org.springframework:spring-test:jar:5.2.8.RELEASE:test (version managed from 5.2.8.RELEASE)
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.7.0:test (version managed from 2.7.0)
+[DEBUG]    org.springframework.boot:spring-boot-autoconfigure:jar:2.3.2.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for http://192.168.10.87:8081/repository/maven-public/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for http://192.168.10.87:8081/repository/maven-public/ with username=gagc, password=***
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/springframework/cloud/spring-cloud-stream/3.0.7.RELEASE/spring-cloud-stream-3.0.7.RELEASE.jar
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/springframework/integration/spring-integration-jmx/5.3.2.RELEASE/spring-integration-jmx-5.3.2.RELEASE.jar
+Downloading from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/springframework/integration/spring-integration-core/5.3.2.RELEASE/spring-integration-core-5.3.2.RELEASE.jar
+Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (4.1/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (5.2/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (9.3/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (13/71 kB) Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (17/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (22/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (26/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (30/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (34/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (38/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (42/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (46/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (49/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (51/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (55/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (60/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (64/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (68/71 kB)Progress (1): spring-integration-jmx-5.3.2.RELEASE.jar (71 kB)                                                                 Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/springframework/integration/spring-integration-jmx/5.3.2.RELEASE/spring-integration-jmx-5.3.2.RELEASE.jar (71 kB at 107 kB/s)
+Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.7/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.8/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (0.9/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.0/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.1/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.2/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.3/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.4/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.5/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.6/1.6 MB)Progress (1): spring-integration-core-5.3.2.RELEASE.jar (1.6 MB)                                                                    Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/springframework/integration/spring-integration-core/5.3.2.RELEASE/spring-integration-core-5.3.2.RELEASE.jar (1.6 MB at 378 kB/s)
+Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (2.4/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (6.5/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (11/293 kB) Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (15/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (19/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (23/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (27/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (31/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (35/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (39/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (43/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (47/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (52/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (56/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (60/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (64/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (68/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (72/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (76/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (80/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (81/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (85/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (89/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (93/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (97/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (101/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (105/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (109/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (110/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (114/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (118/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (122/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (127/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (131/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (135/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (139/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (143/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (144/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (148/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (152/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (154/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (158/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (162/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (163/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (167/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (170/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (173/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (177/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (179/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (183/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (187/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (191/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (191/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (195/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (200/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (200/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (204/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (208/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (211/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (215/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (219/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (223/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (227/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (231/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (236/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (240/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (244/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (248/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (252/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (256/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (260/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (264/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (268/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (272/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (277/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (281/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (285/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (289/293 kB)Progress (1): spring-cloud-stream-3.0.7.RELEASE.jar (293 kB)                                                                Downloaded from gagcmaven: http://192.168.10.87:8081/repository/maven-public/org/springframework/cloud/spring-cloud-stream/3.0.7.RELEASE/spring-cloud-stream-3.0.7.RELEASE.jar (293 kB at 54 kB/s)
+[DEBUG] Writing tracking file D:\projects\repo\org\springframework\cloud\spring-cloud-stream\3.0.7.RELEASE\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\springframework\cloud\spring-cloud-stream\3.0.7.RELEASE\spring-cloud-stream-3.0.7.RELEASE.jar.lastUpdated
+[DEBUG] Writing tracking file D:\projects\repo\org\springframework\integration\spring-integration-core\5.3.2.RELEASE\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\springframework\integration\spring-integration-core\5.3.2.RELEASE\spring-integration-core-5.3.2.RELEASE.jar.lastUpdated
+[DEBUG] Writing tracking file D:\projects\repo\org\springframework\integration\spring-integration-jmx\5.3.2.RELEASE\_remote.repositories
+[DEBUG] Writing tracking file D:\projects\repo\org\springframework\integration\spring-integration-jmx\5.3.2.RELEASE\spring-integration-jmx-5.3.2.RELEASE.jar.lastUpdated
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ SpringConfigServer ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=280300, ConflictMarker.markTime=96600, ConflictMarker.nodeCount=68, ConflictIdSorter.graphTime=110600, ConflictIdSorter.topsortTime=47400, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=580400, ConflictResolver.conflictItemCount=67, DefaultDependencyCollector.collectTime=336033100, DefaultDependencyCollector.transformTime=1189600}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.1.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.1.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.1.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.1.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.1.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.1.0, parent: sun.misc.Launcher$AppClassLoader@25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (s) delimiters = [@]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = D:\projects\Demos\customize\SpringConfig\Server\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: cn.m:SpringConfigServer:0.0.1-SNAPSHOT @ D:\projects\Demos\customize\SpringConfig\Server\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: true, FileSet {directory: D:\projects\Demos\customize\SpringConfig\Server\src\main\resources, PatternSet [includes: {**/application*.yml, **/application*.yaml, **/application*.properties}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: D:\projects\Demos\customize\SpringConfig\Server\src\main\resources, PatternSet [includes: {}, excludes: {**/application*.yml, **/application*.yaml, **/application*.properties}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4c5cbe
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = false
+[DEBUG] -- end configuration --
+[DEBUG] properties used {project.baseUri=file:/D:/projects/Demos/customize/SpringConfig/Server/, env.JVMCONFIG=\.mvn\jvm.config, saaj-impl.version=1.5.2, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel, jaxen.version=1.2.0, env.COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files, byte-buddy.version=1.10.13, janino.version=3.1.2, htmlunit.version=2.40.0, rsocket.version=1.0.1, nio-multipart-parser.version=1.1.0, maven-source-plugin.version=3.2.1, user.dir=D:\projects\Demos\customize\SpringConfig\Server, java.vm.version=25.202-b08, env.USERPROFILE=C:\Users\Administrator, okhttp3.version=3.14.9, env.JAVACMD=C:\Program Files (x86)\Java\jdk1.8.0_202\bin\java.exe, db2-jdbc.version=11.5.4.0, selenium.version=3.141.59, versions-maven-plugin.version=2.7, thymeleaf-extras-java8time.version=3.0.4.RELEASE, env.CLASSWORLDS_JAR="D:\tools\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar", sun.os.patch.level=, snakeyaml.version=1.26, javax-validation.version=2.0.1.Final, jetty.version=9.4.30.v20200611, java.vm.specification.name=Java Virtual Machine Specification, httpclient.version=4.5.12, solr.version=8.5.2, tomcat.version=9.0.37, spring-kafka.version=2.5.4.RELEASE, jakarta-xml-bind.version=2.3.3, jakarta-transaction.version=1.3.3, jboss-transaction-spi.version=7.6.0.Final, env.WDIR=D:\projects\Demos\customize\SpringConfig\Server, mimepull.version=1.9.13, influxdb-java.version=2.18, netty.version=4.1.51.Final, jdom2.version=2.0.6, os.name=Windows 10, env.LOCALAPPDATA=C:\Users\Administrator\AppData\Local, env.TMP=C:\Users\ADMINI~1\AppData\Local\Temp, rxjava2.version=2.2.19, env.USERDOMAIN_ROAMINGPROFILE=3F6LSABX84RRNVP, maven.version=3.6.0, maven-install-plugin.version=2.5.2, log4j2.version=2.13.3, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.ERROR_CODE=0, os.arch=x86, user.name=Administrator, servlet-api.version=4.0.1, activemq.version=5.15.13, aspectj.version=1.9.6, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X compile dependency:tree -Dverbose, ehcache.version=2.10.6, project.reporting.outputEncoding=UTF-8, undertow.version=2.1.3.Final, r2dbc-bom.version=Arabba-SR6, jackson-bom.version=2.11.1, javax-jaxws.version=2.3.1, oracle-database.version=19.3.0.0, querydsl.version=4.3.1, mssql-jdbc.version=7.4.1.jre8, env.OS=Windows_NT, user.country=CN, env.FPS_BROWSER_USER_PROFILE_STRING=Default, env.PROCESSOR_ARCHITECTURE=x86, slf4j.version=1.7.30, java.endorsed.dirs=C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\endorsed, env.TEMP=C:\Users\ADMINI~1\AppData\Local\Temp, jakarta-json-bind.version=1.0.2, maven-dependency-plugin.version=3.1.2, kotlin.version=1.3.72, ehcache3.version=3.8.1, junit.version=4.13, java.vm.specification.version=1.8, kafka.version=2.5.0, spring-data-releasetrain.version=Neumann-SR2, env.PROMPT=$P$G, java.vendor=Oracle Corporation, spring-session-bom.version=Dragonfruit-RELEASE, hamcrest.version=2.2, spring-restdocs.version=2.0.4.RELEASE, file.separator=\, flyway.version=6.4.4, antlr2.version=2.7.7, user.variant=, unboundid-ldapsdk.version=4.0.14, jakarta-xml-soap.version=1.4.2, exec-maven-plugin.version=1.6.0, atomikos.version=4.0.6, glassfish-jaxb.version=2.3.3, jolokia.version=1.6.2, env.WINDIR=C:\windows, sun.java.launcher=SUN_STANDARD, mockito.version=3.3.3, spring-ldap.version=2.3.3.RELEASE, maven-antrun-plugin.version=1.8, commons-pool2.version=2.8.0, java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;D:\tools\apache-maven-3.6.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;., glassfish-el.version=3.0.3, classworlds.conf=D:\tools\apache-maven-3.6.0\bin\..\bin\m2.conf, jmustache.version=1.15, quartz.version=2.3.2, project.build.sourceEncoding=UTF-8, sun.arch.data.model=32, micrometer.version=1.5.3, junit-jupiter.version=5.6.2, env.TERMINAL_EMULATOR=JetBrains-JediTerm, env.PATH=C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;D:\tools\apache-maven-3.6.0\bin;C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm, path.separator=;, git-commit-id-plugin.version=3.0.1, env.USERDOMAIN=3F6LSABX84RRNVP, sun.io.unicode.encoding=UnicodeLittle, env.=D:=D:\projects\Demos\customize\SpringConfig\Server, maven-invoker-plugin.version=3.2.1, httpcore.version=4.4.13, env.PROGRAMW6432=C:\Program Files, xml-maven-plugin.version=1.0.2, user.language=zh, jaybird.version=3.0.9, johnzon.version=1.2.8, jakarta-persistence.version=2.2.3, appengine-sdk.version=1.9.81, maven.compiler.source=1.8, java.class.version=52.0, lettuce.version=5.3.2.RELEASE, couchbase-client.version=3.0.6, jakarta-ws-rs.version=2.1.6, jboss-logging.version=3.4.1.Final, maven-javadoc-plugin.version=3.2.0, jakarta-servlet.version=4.0.4, mariadb.version=2.6.2, jooq.version=3.13.3, file.encoding.pkg=sun.io, sun.cpu.endian=little, env.COMPUTERNAME=3F6LSABX84RRNVP, maven.compiler.target=1.8, cassandra-driver.version=4.6.1, env.LOGONSERVER=\\3F6LSABX84RRNVP, jakarta-annotation.version=1.3.5, env.IDEA_INITIAL_DIRECTORY=C:\windows\system32, prometheus-pushgateway.version=0.9.0, groovy.version=2.5.13, java.home=C:\Program Files (x86)\Java\jdk1.8.0_202\jre, jetty-el.version=8.5.54, spring-cloud.version=Hoxton.SR7, spring-batch.version=4.2.4.RELEASE, javax-activation.version=1.2.0, maven.home=D:\tools\apache-maven-3.6.0\bin\.., rxjava-adapter.version=1.2.1, jakarta-jms.version=2.0.3, commons-lang3.version=3.10, maven-shade-plugin.version=3.2.4, maven-enforcer-plugin.version=3.0.0-M3, commons-pool.version=1.6, env.NUMBER_OF_PROCESSORS=4, maven-war-plugin.version=3.2.3, httpasyncclient.version=4.1.4, pooled-jms.version=1.1.1, javax-persistence.version=2.2, rxjava.version=1.3.8, thymeleaf-extras-springsecurity.version=3.0.4.RELEASE, commons-dbcp2.version=2.7.0, maven-failsafe-plugin.version=2.22.2, xmlunit2.version=2.7.0, liquibase.version=3.8.9, sun.management.compiler=HotSpot Client Compiler, wsdl4j.version=1.6.3, jakarta-websocket.version=1.1.2, library.jansi.path=D:\tools\apache-maven-3.6.0\bin\..\lib\jansi-native, json-path.version=2.4.0, jsonassert.version=1.5.0, hazelcast.version=3.12.8, env.PUBLIC=C:\Users\Public, javax-transaction.version=1.3, h2.version=1.4.200, kotlin-coroutines.version=1.3.8, spring-retry.version=1.2.5.RELEASE, env.ASL.LOG=Destination=file, spring-boot.version=2.3.2.RELEASE, maven-clean-plugin.version=3.1.0, java.vm.specification.vendor=Oracle Corporation, dropwizard-metrics.version=4.1.11, java.vm.name=Java HotSpot(TM) Client VM, jakarta-mail.version=1.6.5, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, java.vendor.url=http://java.oracle.com/, lombok.version=1.18.12, javax-jsonb.version=1.0, jakarta-servlet-jsp-jstl.version=1.2.7, sun.boot.library.path=C:\Program Files (x86)\Java\jdk1.8.0_202\jre\bin, jetty-reactive-httpclient.version=1.1.4, derby.version=10.14.2.0, env.MAVEN_HOME=D:\tools\apache-maven-3.6.0\bin\.., gson.version=2.8.6, env.SESSIONNAME=Console, javax-jms.version=2.0.1, spring-security.version=5.3.3.RELEASE, java.runtime.name=Java(TM) SE Runtime Environment, javax-websocket.version=1.1, maven-resources-plugin.version=3.1.0, maven.conf=D:\tools\apache-maven-3.6.0\bin\../conf, assertj.version=3.16.1, jakarta-json.version=1.1.6, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, ojdbc.version=19.3.0.0, sun.stderr.encoding=ms936, spring-amqp.version=2.2.9.RELEASE, hibernate-validator.version=6.1.5.Final, maven.multiModuleProjectDirectory=D:\projects\Demos\customize\SpringConfig\Server, env.ALLUSERSPROFILE=C:\ProgramData, commons-codec.version=1.14, user.home=C:\Users\Administrator, env.JAVA_HOME=C:\Program Files (x86)\Java\jdk1.8.0_202, mongodb.version=4.0.5, env.PROCESSOR_REVISION=3d04, java.specification.name=Java Platform API Specification, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, env.__INTELLIJ_COMMAND_HISTFILE__=C:\Users\Administrator\.IntelliJIdea2019.3\config\terminal\history\history-58, env.PROCESSOR_ARCHITEW6432=AMD64, logback.version=1.2.3, env.ONEDRIVE=C:\Users\Administrator\OneDrive, env.PROGRAMDATA=C:\ProgramData, env.CLASSPATH=C:\Program Files (x86)\Java\jdk1.8.0_202\lib\dt.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\lib\tools.jar, java.specification.vendor=Oracle Corporation, maven-help-plugin.version=3.2.0, rabbit-amqp-client.version=5.9.0, java.version=1.8.0_202, thymeleaf.version=3.0.11.RELEASE, env.PROGRAMFILES=C:\Program Files (x86), embedded-mongo.version=2.2.0, json-smart.version=2.3, postgresql.version=42.2.14, hsqldb.version=2.5.1, env.EXEC_DIR=D:\projects\Demos\customize\SpringConfig\Server, hazelcast-hibernate5.version=1.3.2, javax-mail.version=1.6.2, env.PROCESSOR_LEVEL=6, webjars-hal-browser.version=3325375, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, flatten-maven-plugin.version=1.2.4, env.MAVEN_PROJECTBASEDIR=D:\projects\Demos\customize\SpringConfig\Server, env.=::=::\, maven.build.timestamp=2020-08-12T00:58:07Z, jersey.version=2.30.1, jakarta-validation.version=2.0.2, line.separator=
+, java.specification.version=1.8, java.vm.info=mixed mode, sharing, env.HOMEDRIVE=C:, javax-annotation.version=1.3.2, sun.boot.class.path=C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\classes, build-helper-maven-plugin.version=3.1.0, javax-json.version=1.1.4, verbose=true, bitronix.version=2.1.4, maven-deploy-plugin.version=2.8.2, jetty-jsp.version=2.2.0.v201112011158, env.APPDATA=C:\Users\Administrator\AppData\Roaming, env.ONEDRIVECONSUMER=C:\Users\Administrator\OneDrive, env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, infinispan.version=10.1.8.Final, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, nekohtml.version=1.9.22, env.ERLANG_HOME=D:\Program Files\erl10.6, jakarta-activation.version=1.2.2, env.COMSPEC=C:\windows\system32\cmd.exe, java.awt.printerjob=sun.awt.windows.WPrinterJob, jstl.version=1.2, sun.jnu.encoding=GBK, hibernate.version=5.4.18.Final, javax-money.version=1.0.3, java.runtime.version=1.8.0_202-b08, sendgrid.version=4.4.8, reactive-streams.version=1.0.3, maven.build.version=Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-25T02:41:47+08:00), user.timezone=, resource.delimiter=@, reactor-bom.version=Dysprosium-SR10, netty-tcnative.version=2.0.31.Final, mysql.version=8.0.21, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules, hikaricp.version=3.4.5, spring-hateoas.version=1.1.0.RELEASE, oauth2-oidc-sdk.version=7.1.1, java.ext.dirs=C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\ext;C:\windows\Sun\Java\lib\ext, env.MAVEN_CMD_LINE_ARGS=-X compile dependency:tree -Dverbose, caffeine.version=2.8.5, javax-jaxb.version=2.3.1, awaitility.version=4.0.3, spring-integration.version=5.3.2.RELEASE, java.class.path=D:\tools\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar, maven-jar-plugin.version=3.2.0, env.USERNAME=Administrator, rest-assured.version=3.3.0, neo4j-ogm.version=3.2.14, os.version=10.0, thymeleaf-layout-dialect.version=2.4.1, env.HOMEPATH=\Users\Administrator, sqlite-jdbc.version=3.31.1, sun.desktop=windows, classmate.version=1.5.1, javax-cache.version=1.1.1, jedis.version=3.3.0, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, maven-compiler-plugin.version=3.8.1, java.vm.vendor=Oracle Corporation, maven-assembly-plugin.version=3.3.0, spring-framework.version=5.2.8.RELEASE, freemarker.version=2.3.30, elasticsearch.version=7.6.2, thymeleaf-extras-data-attribute.version=2.0.1, jakarta-xml-ws.version=2.3.3, env.SYSTEMDRIVE=C:, dependency-management-plugin.version=1.0.9.RELEASE, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, user.script=, selenium-htmlunit.version=2.40.0, webjars-locator-core.version=0.45, sun-mail.version=1.6.5, artemis.version=2.12.0, maven-surefire-plugin.version=2.22.2, jtds.version=1.3.1, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.SYSTEMROOT=C:\windows, spring-ws.version=3.0.9.RELEASE, file.encoding=GBK, env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, awt.toolkit=sun.awt.windows.WToolkit}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory D:\projects\Demos\customize\SpringConfig\Server\src\main\resources
+excludes []
+includes [**/application*.yml, **/application*.yaml, **/application*.properties]
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] Copying file application.properties
+[DEBUG] file application.properties has a filtered file extension
+[DEBUG] filtering D:\projects\Demos\customize\SpringConfig\Server\src\main\resources\application.properties to D:\projects\Demos\customize\SpringConfig\Server\target\classes\application.properties
+[DEBUG] resource with targetPath null
+directory D:\projects\Demos\customize\SpringConfig\Server\src\main\resources
+excludes [**/application*.yml, **/application*.yaml, **/application*.properties]
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ SpringConfigServer ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=139300, ConflictMarker.markTime=81400, ConflictMarker.nodeCount=118, ConflictIdSorter.graphTime=76400, ConflictIdSorter.topsortTime=49900, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=932700, ConflictResolver.conflictItemCount=72, DefaultDependencyCollector.collectTime=221047600, DefaultDependencyCollector.transformTime=1298700}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:0.9.10:compile
+[DEBUG]       org.ow2.asm:asm:jar:6.2:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M9:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.10
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M9
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1, parent: sun.misc.Launcher$AppClassLoader@25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = D:\projects\Demos\customize\SpringConfig\Server
+[DEBUG]   (f) buildDirectory = D:\projects\Demos\customize\SpringConfig\Server\target
+[DEBUG]   (f) compilePath = [D:\projects\Demos\customize\SpringConfig\Server\target\classes, D:\projects\repo\org\springframework\boot\spring-boot-starter-amqp\2.3.2.RELEASE\spring-boot-starter-amqp-2.3.2.RELEASE.jar, D:\projects\repo\org\springframework\boot\spring-boot-starter\2.3.2.RELEASE\spring-boot-starter-2.3.2.RELEASE.jar, D:\projects\repo\org\springframework\boot\spring-boot-starter-logging\2.3.2.RELEASE\spring-boot-starter-logging-2.3.2.RELEASE.jar, D:\projects\repo\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar, D:\projects\repo\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar, D:\projects\repo\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar, D:\projects\repo\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar, D:\projects\repo\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar, D:\projects\repo\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar, D:\projects\repo\org\springframework\spring-messaging\5.2.8.RELEASE\spring-messaging-5.2.8.RELEASE.jar, D:\projects\repo\org\springframework\spring-beans\5.2.8.RELEASE\spring-beans-5.2.8.RELEASE.jar, D:\projects\repo\org\springframework\amqp\spring-rabbit\2.2.9.RELEASE\spring-rabbit-2.2.9.RELEASE.jar, D:\projects\repo\com\rabbitmq\amqp-client\5.9.0\amqp-client-5.9.0.jar, D:\projects\repo\org\springframework\amqp\spring-amqp\2.2.9.RELEASE\spring-amqp-2.2.9.RELEASE.jar, D:\projects\repo\org\springframework\spring-context\5.2.8.RELEASE\spring-context-5.2.8.RELEASE.jar, D:\projects\repo\org\springframework\spring-expression\5.2.8.RELEASE\spring-expression-5.2.8.RELEASE.jar, D:\projects\repo\org\springframework\spring-tx\5.2.8.RELEASE\spring-tx-5.2.8.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-bus\2.2.3.RELEASE\spring-cloud-bus-2.2.3.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-starter\2.2.4.RELEASE\spring-cloud-starter-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-context\2.2.4.RELEASE\spring-cloud-context-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-commons\2.2.4.RELEASE\spring-cloud-commons-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-stream\3.0.7.RELEASE\spring-cloud-stream-3.0.7.RELEASE.jar, D:\projects\repo\org\springframework\retry\spring-retry\1.2.5.RELEASE\spring-retry-1.2.5.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-function-context\3.0.9.RELEASE\spring-cloud-function-context-3.0.9.RELEASE.jar, D:\projects\repo\net\jodah\typetools\0.6.2\typetools-0.6.2.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-function-core\3.0.9.RELEASE\spring-cloud-function-core-3.0.9.RELEASE.jar, D:\projects\repo\org\springframework\integration\spring-integration-core\5.3.2.RELEASE\spring-integration-core-5.3.2.RELEASE.jar, D:\projects\repo\org\springframework\spring-aop\5.2.8.RELEASE\spring-aop-5.2.8.RELEASE.jar, D:\projects\repo\io\projectreactor\reactor-core\3.3.8.RELEASE\reactor-core-3.3.8.RELEASE.jar, D:\projects\repo\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-config-server\2.2.4.RELEASE\spring-cloud-config-server-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-config-client\2.2.4.RELEASE\spring-cloud-config-client-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\spring-web\5.2.8.RELEASE\spring-web-5.2.8.RELEASE.jar, D:\projects\repo\com\fasterxml\jackson\core\jackson-annotations\2.11.1\jackson-annotations-2.11.1.jar, D:\projects\repo\com\fasterxml\jackson\core\jackson-databind\2.11.1\jackson-databind-2.11.1.jar, D:\projects\repo\org\springframework\boot\spring-boot-starter-actuator\2.3.2.RELEASE\spring-boot-starter-actuator-2.3.2.RELEASE.jar, D:\projects\repo\org\springframework\boot\spring-boot-actuator-autoconfigure\2.3.2.RELEASE\spring-boot-actuator-autoconfigure-2.3.2.RELEASE.jar, D:\projects\repo\org\springframework\boot\spring-boot-actuator\2.3.2.RELEASE\spring-boot-actuator-2.3.2.RELEASE.jar, D:\projects\repo\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.1\jackson-datatype-jsr310-2.11.1.jar, D:\projects\repo\io\micrometer\micrometer-core\1.5.3\micrometer-core-1.5.3.jar, D:\projects\repo\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar, D:\projects\repo\org\springframework\boot\spring-boot-starter-web\2.3.2.RELEASE\spring-boot-starter-web-2.3.2.RELEASE.jar, D:\projects\repo\org\springframework\boot\spring-boot-starter-json\2.3.2.RELEASE\spring-boot-starter-json-2.3.2.RELEASE.jar, D:\projects\repo\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.1\jackson-datatype-jdk8-2.11.1.jar, D:\projects\repo\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.1\jackson-module-parameter-names-2.11.1.jar, D:\projects\repo\org\springframework\boot\spring-boot-starter-tomcat\2.3.2.RELEASE\spring-boot-starter-tomcat-2.3.2.RELEASE.jar, D:\projects\repo\org\apache\tomcat\embed\tomcat-embed-core\9.0.37\tomcat-embed-core-9.0.37.jar, D:\projects\repo\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.37\tomcat-embed-websocket-9.0.37.jar, D:\projects\repo\org\springframework\spring-webmvc\5.2.8.RELEASE\spring-webmvc-5.2.8.RELEASE.jar, D:\projects\repo\org\springframework\boot\spring-boot-starter-validation\2.3.2.RELEASE\spring-boot-starter-validation-2.3.2.RELEASE.jar, D:\projects\repo\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar, D:\projects\repo\org\hibernate\validator\hibernate-validator\6.1.5.Final\hibernate-validator-6.1.5.Final.jar, D:\projects\repo\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar, D:\projects\repo\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar, D:\projects\repo\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar, D:\projects\repo\org\springframework\security\spring-security-crypto\5.3.3.RELEASE\spring-security-crypto-5.3.3.RELEASE.jar, D:\projects\repo\org\springframework\security\spring-security-rsa\1.0.9.RELEASE\spring-security-rsa-1.0.9.RELEASE.jar, D:\projects\repo\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar, D:\projects\repo\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar, D:\projects\repo\org\eclipse\jgit\org.eclipse.jgit\5.1.3.201810200350-r\org.eclipse.jgit-5.1.3.201810200350-r.jar, D:\projects\repo\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar, D:\projects\repo\com\jcraft\jzlib\1.1.1\jzlib-1.1.1.jar, D:\projects\repo\com\googlecode\javaewah\JavaEWAH\1.1.6\JavaEWAH-1.1.6.jar, D:\projects\repo\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar, D:\projects\repo\org\eclipse\jgit\org.eclipse.jgit.http.apache\5.1.3.201810200350-r\org.eclipse.jgit.http.apache-5.1.3.201810200350-r.jar, D:\projects\repo\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar, D:\projects\repo\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar, D:\projects\repo\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.11.1\jackson-dataformat-yaml-2.11.1.jar, D:\projects\repo\com\fasterxml\jackson\core\jackson-core\2.11.1\jackson-core-2.11.1.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-starter-netflix-eureka-client\2.2.4.RELEASE\spring-cloud-starter-netflix-eureka-client-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-hystrix\2.2.4.RELEASE\spring-cloud-netflix-hystrix-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\boot\spring-boot-starter-aop\2.3.2.RELEASE\spring-boot-starter-aop-2.3.2.RELEASE.jar, D:\projects\repo\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-eureka-client\2.2.4.RELEASE\spring-cloud-netflix-eureka-client-2.2.4.RELEASE.jar, D:\projects\repo\com\netflix\eureka\eureka-client\1.9.25\eureka-client-1.9.25.jar, D:\projects\repo\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar, D:\projects\repo\stax\stax-api\1.0.1\stax-api-1.0.1.jar, D:\projects\repo\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar, D:\projects\repo\com\netflix\archaius\archaius-core\0.7.6\archaius-core-0.7.6.jar, D:\projects\repo\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar, D:\projects\repo\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar, D:\projects\repo\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, D:\projects\repo\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar, D:\projects\repo\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar, D:\projects\repo\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar, D:\projects\repo\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar, D:\projects\repo\com\netflix\servo\servo-core\0.12.21\servo-core-0.12.21.jar, D:\projects\repo\com\sun\jersey\jersey-core\1.19.1\jersey-core-1.19.1.jar, D:\projects\repo\com\sun\jersey\jersey-client\1.19.1\jersey-client-1.19.1.jar, D:\projects\repo\com\sun\jersey\contribs\jersey-apache-client4\1.19.1\jersey-apache-client4-1.19.1.jar, D:\projects\repo\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar, D:\projects\repo\commons-lang\commons-lang\2.6\commons-lang-2.6.jar, D:\projects\repo\com\google\inject\guice\4.1.0\guice-4.1.0.jar, D:\projects\repo\javax\inject\javax.inject\1\javax.inject-1.jar, D:\projects\repo\aopalliance\aopalliance\1.0\aopalliance-1.0.jar, D:\projects\repo\com\netflix\eureka\eureka-core\1.9.25\eureka-core-1.9.25.jar, D:\projects\repo\com\fasterxml\woodstox\woodstox-core\5.3.0\woodstox-core-5.3.0.jar, D:\projects\repo\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-starter-netflix-archaius\2.2.4.RELEASE\spring-cloud-starter-netflix-archaius-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-ribbon\2.2.4.RELEASE\spring-cloud-netflix-ribbon-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-archaius\2.2.4.RELEASE\spring-cloud-netflix-archaius-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-starter-netflix-ribbon\2.2.4.RELEASE\spring-cloud-starter-netflix-ribbon-2.2.4.RELEASE.jar, D:\projects\repo\com\netflix\ribbon\ribbon\2.3.0\ribbon-2.3.0.jar, D:\projects\repo\com\netflix\ribbon\ribbon-core\2.3.0\ribbon-core-2.3.0.jar, D:\projects\repo\com\netflix\ribbon\ribbon-httpclient\2.3.0\ribbon-httpclient-2.3.0.jar, D:\projects\repo\com\netflix\ribbon\ribbon-loadbalancer\2.3.0\ribbon-loadbalancer-2.3.0.jar, D:\projects\repo\io\reactivex\rxjava\1.3.8\rxjava-1.3.8.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-starter-loadbalancer\2.2.4.RELEASE\spring-cloud-starter-loadbalancer-2.2.4.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-loadbalancer\2.2.4.RELEASE\spring-cloud-loadbalancer-2.2.4.RELEASE.jar, D:\projects\repo\io\projectreactor\addons\reactor-extra\3.3.3.RELEASE\reactor-extra-3.3.3.RELEASE.jar, D:\projects\repo\org\springframework\boot\spring-boot-starter-cache\2.3.2.RELEASE\spring-boot-starter-cache-2.3.2.RELEASE.jar, D:\projects\repo\org\springframework\spring-context-support\5.2.8.RELEASE\spring-context-support-5.2.8.RELEASE.jar, D:\projects\repo\com\stoyanr\evictor\1.0.0\evictor-1.0.0.jar, D:\projects\repo\com\netflix\ribbon\ribbon-eureka\2.3.0\ribbon-eureka-2.3.0.jar, D:\projects\repo\com\thoughtworks\xstream\xstream\1.4.11.1\xstream-1.4.11.1.jar, D:\projects\repo\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar, D:\projects\repo\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-stream-binder-rabbit\3.0.7.RELEASE\spring-cloud-stream-binder-rabbit-3.0.7.RELEASE.jar, D:\projects\repo\org\springframework\cloud\spring-cloud-stream-binder-rabbit-core\3.0.7.RELEASE\spring-cloud-stream-binder-rabbit-core-3.0.7.RELEASE.jar, D:\projects\repo\org\springframework\integration\spring-integration-amqp\5.3.2.RELEASE\spring-integration-amqp-5.3.2.RELEASE.jar, D:\projects\repo\com\rabbitmq\http-client\2.1.0.RELEASE\http-client-2.1.0.RELEASE.jar, D:\projects\repo\org\springframework\integration\spring-integration-jmx\5.3.2.RELEASE\spring-integration-jmx-5.3.2.RELEASE.jar, D:\projects\repo\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar, D:\projects\repo\commons-codec\commons-codec\1.14\commons-codec-1.14.jar, D:\projects\repo\org\springframework\spring-core\5.2.8.RELEASE\spring-core-5.2.8.RELEASE.jar, D:\projects\repo\org\springframework\spring-jcl\5.2.8.RELEASE\spring-jcl-5.2.8.RELEASE.jar, D:\projects\repo\org\springframework\boot\spring-boot-autoconfigure\2.3.2.RELEASE\spring-boot-autoconfigure-2.3.2.RELEASE.jar, D:\projects\repo\org\springframework\boot\spring-boot\2.3.2.RELEASE\spring-boot-2.3.2.RELEASE.jar]
+[DEBUG]   (f) compileSourceRoots = [D:\projects\Demos\customize\SpringConfig\Server\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = D:\projects\Demos\customize\SpringConfig\Server\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = D:\projects\Demos\customize\SpringConfig\Server\target\classes
+[DEBUG]   (f) parameters = true
+[DEBUG]   (f) project = MavenProject: cn.m:SpringConfigServer:0.0.1-SNAPSHOT @ D:\projects\Demos\customize\SpringConfig\Server\pom.xml
+[DEBUG]   (f) projectArtifact = cn.m:SpringConfigServer:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4c5cbe
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding D:\projects\Demos\customize\SpringConfig\Server\target\generated-sources\annotations to compile source roots:
+  D:\projects\Demos\customize\SpringConfig\Server\src\main\java
+[DEBUG] New compile source roots:
+  D:\projects\Demos\customize\SpringConfig\Server\src\main\java
+  D:\projects\Demos\customize\SpringConfig\Server\target\generated-sources\annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  D:\projects\Demos\customize\SpringConfig\Server\target\classes
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-starter-amqp\2.3.2.RELEASE\spring-boot-starter-amqp-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-starter\2.3.2.RELEASE\spring-boot-starter-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-starter-logging\2.3.2.RELEASE\spring-boot-starter-logging-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar
+[DEBUG]  D:\projects\repo\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar
+[DEBUG]  D:\projects\repo\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar
+[DEBUG]  D:\projects\repo\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar
+[DEBUG]  D:\projects\repo\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar
+[DEBUG]  D:\projects\repo\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-messaging\5.2.8.RELEASE\spring-messaging-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-beans\5.2.8.RELEASE\spring-beans-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\amqp\spring-rabbit\2.2.9.RELEASE\spring-rabbit-2.2.9.RELEASE.jar
+[DEBUG]  D:\projects\repo\com\rabbitmq\amqp-client\5.9.0\amqp-client-5.9.0.jar
+[DEBUG]  D:\projects\repo\org\springframework\amqp\spring-amqp\2.2.9.RELEASE\spring-amqp-2.2.9.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-context\5.2.8.RELEASE\spring-context-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-expression\5.2.8.RELEASE\spring-expression-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-tx\5.2.8.RELEASE\spring-tx-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-bus\2.2.3.RELEASE\spring-cloud-bus-2.2.3.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-starter\2.2.4.RELEASE\spring-cloud-starter-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-context\2.2.4.RELEASE\spring-cloud-context-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-commons\2.2.4.RELEASE\spring-cloud-commons-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-stream\3.0.7.RELEASE\spring-cloud-stream-3.0.7.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\retry\spring-retry\1.2.5.RELEASE\spring-retry-1.2.5.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-function-context\3.0.9.RELEASE\spring-cloud-function-context-3.0.9.RELEASE.jar
+[DEBUG]  D:\projects\repo\net\jodah\typetools\0.6.2\typetools-0.6.2.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-function-core\3.0.9.RELEASE\spring-cloud-function-core-3.0.9.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\integration\spring-integration-core\5.3.2.RELEASE\spring-integration-core-5.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-aop\5.2.8.RELEASE\spring-aop-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\io\projectreactor\reactor-core\3.3.8.RELEASE\reactor-core-3.3.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-config-server\2.2.4.RELEASE\spring-cloud-config-server-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-config-client\2.2.4.RELEASE\spring-cloud-config-client-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-web\5.2.8.RELEASE\spring-web-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\com\fasterxml\jackson\core\jackson-annotations\2.11.1\jackson-annotations-2.11.1.jar
+[DEBUG]  D:\projects\repo\com\fasterxml\jackson\core\jackson-databind\2.11.1\jackson-databind-2.11.1.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-starter-actuator\2.3.2.RELEASE\spring-boot-starter-actuator-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-actuator-autoconfigure\2.3.2.RELEASE\spring-boot-actuator-autoconfigure-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-actuator\2.3.2.RELEASE\spring-boot-actuator-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.1\jackson-datatype-jsr310-2.11.1.jar
+[DEBUG]  D:\projects\repo\io\micrometer\micrometer-core\1.5.3\micrometer-core-1.5.3.jar
+[DEBUG]  D:\projects\repo\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-starter-web\2.3.2.RELEASE\spring-boot-starter-web-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-starter-json\2.3.2.RELEASE\spring-boot-starter-json-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.1\jackson-datatype-jdk8-2.11.1.jar
+[DEBUG]  D:\projects\repo\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.1\jackson-module-parameter-names-2.11.1.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-starter-tomcat\2.3.2.RELEASE\spring-boot-starter-tomcat-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\apache\tomcat\embed\tomcat-embed-core\9.0.37\tomcat-embed-core-9.0.37.jar
+[DEBUG]  D:\projects\repo\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.37\tomcat-embed-websocket-9.0.37.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-webmvc\5.2.8.RELEASE\spring-webmvc-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-starter-validation\2.3.2.RELEASE\spring-boot-starter-validation-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar
+[DEBUG]  D:\projects\repo\org\hibernate\validator\hibernate-validator\6.1.5.Final\hibernate-validator-6.1.5.Final.jar
+[DEBUG]  D:\projects\repo\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar
+[DEBUG]  D:\projects\repo\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar
+[DEBUG]  D:\projects\repo\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar
+[DEBUG]  D:\projects\repo\org\springframework\security\spring-security-crypto\5.3.3.RELEASE\spring-security-crypto-5.3.3.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\security\spring-security-rsa\1.0.9.RELEASE\spring-security-rsa-1.0.9.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar
+[DEBUG]  D:\projects\repo\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar
+[DEBUG]  D:\projects\repo\org\eclipse\jgit\org.eclipse.jgit\5.1.3.201810200350-r\org.eclipse.jgit-5.1.3.201810200350-r.jar
+[DEBUG]  D:\projects\repo\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar
+[DEBUG]  D:\projects\repo\com\jcraft\jzlib\1.1.1\jzlib-1.1.1.jar
+[DEBUG]  D:\projects\repo\com\googlecode\javaewah\JavaEWAH\1.1.6\JavaEWAH-1.1.6.jar
+[DEBUG]  D:\projects\repo\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar
+[DEBUG]  D:\projects\repo\org\eclipse\jgit\org.eclipse.jgit.http.apache\5.1.3.201810200350-r\org.eclipse.jgit.http.apache-5.1.3.201810200350-r.jar
+[DEBUG]  D:\projects\repo\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar
+[DEBUG]  D:\projects\repo\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar
+[DEBUG]  D:\projects\repo\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.11.1\jackson-dataformat-yaml-2.11.1.jar
+[DEBUG]  D:\projects\repo\com\fasterxml\jackson\core\jackson-core\2.11.1\jackson-core-2.11.1.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-starter-netflix-eureka-client\2.2.4.RELEASE\spring-cloud-starter-netflix-eureka-client-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-hystrix\2.2.4.RELEASE\spring-cloud-netflix-hystrix-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-starter-aop\2.3.2.RELEASE\spring-boot-starter-aop-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-eureka-client\2.2.4.RELEASE\spring-cloud-netflix-eureka-client-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\com\netflix\eureka\eureka-client\1.9.25\eureka-client-1.9.25.jar
+[DEBUG]  D:\projects\repo\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar
+[DEBUG]  D:\projects\repo\stax\stax-api\1.0.1\stax-api-1.0.1.jar
+[DEBUG]  D:\projects\repo\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar
+[DEBUG]  D:\projects\repo\com\netflix\archaius\archaius-core\0.7.6\archaius-core-0.7.6.jar
+[DEBUG]  D:\projects\repo\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar
+[DEBUG]  D:\projects\repo\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar
+[DEBUG]  D:\projects\repo\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[DEBUG]  D:\projects\repo\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar
+[DEBUG]  D:\projects\repo\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar
+[DEBUG]  D:\projects\repo\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar
+[DEBUG]  D:\projects\repo\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar
+[DEBUG]  D:\projects\repo\com\netflix\servo\servo-core\0.12.21\servo-core-0.12.21.jar
+[DEBUG]  D:\projects\repo\com\sun\jersey\jersey-core\1.19.1\jersey-core-1.19.1.jar
+[DEBUG]  D:\projects\repo\com\sun\jersey\jersey-client\1.19.1\jersey-client-1.19.1.jar
+[DEBUG]  D:\projects\repo\com\sun\jersey\contribs\jersey-apache-client4\1.19.1\jersey-apache-client4-1.19.1.jar
+[DEBUG]  D:\projects\repo\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar
+[DEBUG]  D:\projects\repo\commons-lang\commons-lang\2.6\commons-lang-2.6.jar
+[DEBUG]  D:\projects\repo\com\google\inject\guice\4.1.0\guice-4.1.0.jar
+[DEBUG]  D:\projects\repo\javax\inject\javax.inject\1\javax.inject-1.jar
+[DEBUG]  D:\projects\repo\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+[DEBUG]  D:\projects\repo\com\netflix\eureka\eureka-core\1.9.25\eureka-core-1.9.25.jar
+[DEBUG]  D:\projects\repo\com\fasterxml\woodstox\woodstox-core\5.3.0\woodstox-core-5.3.0.jar
+[DEBUG]  D:\projects\repo\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-starter-netflix-archaius\2.2.4.RELEASE\spring-cloud-starter-netflix-archaius-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-ribbon\2.2.4.RELEASE\spring-cloud-netflix-ribbon-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-archaius\2.2.4.RELEASE\spring-cloud-netflix-archaius-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-starter-netflix-ribbon\2.2.4.RELEASE\spring-cloud-starter-netflix-ribbon-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\com\netflix\ribbon\ribbon\2.3.0\ribbon-2.3.0.jar
+[DEBUG]  D:\projects\repo\com\netflix\ribbon\ribbon-core\2.3.0\ribbon-core-2.3.0.jar
+[DEBUG]  D:\projects\repo\com\netflix\ribbon\ribbon-httpclient\2.3.0\ribbon-httpclient-2.3.0.jar
+[DEBUG]  D:\projects\repo\com\netflix\ribbon\ribbon-loadbalancer\2.3.0\ribbon-loadbalancer-2.3.0.jar
+[DEBUG]  D:\projects\repo\io\reactivex\rxjava\1.3.8\rxjava-1.3.8.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-starter-loadbalancer\2.2.4.RELEASE\spring-cloud-starter-loadbalancer-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-loadbalancer\2.2.4.RELEASE\spring-cloud-loadbalancer-2.2.4.RELEASE.jar
+[DEBUG]  D:\projects\repo\io\projectreactor\addons\reactor-extra\3.3.3.RELEASE\reactor-extra-3.3.3.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-starter-cache\2.3.2.RELEASE\spring-boot-starter-cache-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-context-support\5.2.8.RELEASE\spring-context-support-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\com\stoyanr\evictor\1.0.0\evictor-1.0.0.jar
+[DEBUG]  D:\projects\repo\com\netflix\ribbon\ribbon-eureka\2.3.0\ribbon-eureka-2.3.0.jar
+[DEBUG]  D:\projects\repo\com\thoughtworks\xstream\xstream\1.4.11.1\xstream-1.4.11.1.jar
+[DEBUG]  D:\projects\repo\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar
+[DEBUG]  D:\projects\repo\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-stream-binder-rabbit\3.0.7.RELEASE\spring-cloud-stream-binder-rabbit-3.0.7.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\cloud\spring-cloud-stream-binder-rabbit-core\3.0.7.RELEASE\spring-cloud-stream-binder-rabbit-core-3.0.7.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\integration\spring-integration-amqp\5.3.2.RELEASE\spring-integration-amqp-5.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\com\rabbitmq\http-client\2.1.0.RELEASE\http-client-2.1.0.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\integration\spring-integration-jmx\5.3.2.RELEASE\spring-integration-jmx-5.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar
+[DEBUG]  D:\projects\repo\commons-codec\commons-codec\1.14\commons-codec-1.14.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-core\5.2.8.RELEASE\spring-core-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\spring-jcl\5.2.8.RELEASE\spring-jcl-5.2.8.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot-autoconfigure\2.3.2.RELEASE\spring-boot-autoconfigure-2.3.2.RELEASE.jar
+[DEBUG]  D:\projects\repo\org\springframework\boot\spring-boot\2.3.2.RELEASE\spring-boot-2.3.2.RELEASE.jar
+[DEBUG] Source roots:
+[DEBUG]  D:\projects\Demos\customize\SpringConfig\Server\src\main\java
+[DEBUG]  D:\projects\Demos\customize\SpringConfig\Server\target\generated-sources\annotations
+[DEBUG] Command line options:
+[DEBUG] -d D:\projects\Demos\customize\SpringConfig\Server\target\classes -classpath D:\projects\Demos\customize\SpringConfig\Server\target\classes;D:\projects\repo\org\springframework\boot\spring-boot-starter-amqp\2.3.2.RELEASE\spring-boot-starter-amqp-2.3.2.RELEASE.jar;D:\projects\repo\org\springframework\boot\spring-boot-starter\2.3.2.RELEASE\spring-boot-starter-2.3.2.RELEASE.jar;D:\projects\repo\org\springframework\boot\spring-boot-starter-logging\2.3.2.RELEASE\spring-boot-starter-logging-2.3.2.RELEASE.jar;D:\projects\repo\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;D:\projects\repo\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;D:\projects\repo\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar;D:\projects\repo\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;D:\projects\repo\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;D:\projects\repo\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;D:\projects\repo\org\springframework\spring-messaging\5.2.8.RELEASE\spring-messaging-5.2.8.RELEASE.jar;D:\projects\repo\org\springframework\spring-beans\5.2.8.RELEASE\spring-beans-5.2.8.RELEASE.jar;D:\projects\repo\org\springframework\amqp\spring-rabbit\2.2.9.RELEASE\spring-rabbit-2.2.9.RELEASE.jar;D:\projects\repo\com\rabbitmq\amqp-client\5.9.0\amqp-client-5.9.0.jar;D:\projects\repo\org\springframework\amqp\spring-amqp\2.2.9.RELEASE\spring-amqp-2.2.9.RELEASE.jar;D:\projects\repo\org\springframework\spring-context\5.2.8.RELEASE\spring-context-5.2.8.RELEASE.jar;D:\projects\repo\org\springframework\spring-expression\5.2.8.RELEASE\spring-expression-5.2.8.RELEASE.jar;D:\projects\repo\org\springframework\spring-tx\5.2.8.RELEASE\spring-tx-5.2.8.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-bus\2.2.3.RELEASE\spring-cloud-bus-2.2.3.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-starter\2.2.4.RELEASE\spring-cloud-starter-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-context\2.2.4.RELEASE\spring-cloud-context-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-commons\2.2.4.RELEASE\spring-cloud-commons-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-stream\3.0.7.RELEASE\spring-cloud-stream-3.0.7.RELEASE.jar;D:\projects\repo\org\springframework\retry\spring-retry\1.2.5.RELEASE\spring-retry-1.2.5.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-function-context\3.0.9.RELEASE\spring-cloud-function-context-3.0.9.RELEASE.jar;D:\projects\repo\net\jodah\typetools\0.6.2\typetools-0.6.2.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-function-core\3.0.9.RELEASE\spring-cloud-function-core-3.0.9.RELEASE.jar;D:\projects\repo\org\springframework\integration\spring-integration-core\5.3.2.RELEASE\spring-integration-core-5.3.2.RELEASE.jar;D:\projects\repo\org\springframework\spring-aop\5.2.8.RELEASE\spring-aop-5.2.8.RELEASE.jar;D:\projects\repo\io\projectreactor\reactor-core\3.3.8.RELEASE\reactor-core-3.3.8.RELEASE.jar;D:\projects\repo\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-config-server\2.2.4.RELEASE\spring-cloud-config-server-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-config-client\2.2.4.RELEASE\spring-cloud-config-client-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\spring-web\5.2.8.RELEASE\spring-web-5.2.8.RELEASE.jar;D:\projects\repo\com\fasterxml\jackson\core\jackson-annotations\2.11.1\jackson-annotations-2.11.1.jar;D:\projects\repo\com\fasterxml\jackson\core\jackson-databind\2.11.1\jackson-databind-2.11.1.jar;D:\projects\repo\org\springframework\boot\spring-boot-starter-actuator\2.3.2.RELEASE\spring-boot-starter-actuator-2.3.2.RELEASE.jar;D:\projects\repo\org\springframework\boot\spring-boot-actuator-autoconfigure\2.3.2.RELEASE\spring-boot-actuator-autoconfigure-2.3.2.RELEASE.jar;D:\projects\repo\org\springframework\boot\spring-boot-actuator\2.3.2.RELEASE\spring-boot-actuator-2.3.2.RELEASE.jar;D:\projects\repo\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.1\jackson-datatype-jsr310-2.11.1.jar;D:\projects\repo\io\micrometer\micrometer-core\1.5.3\micrometer-core-1.5.3.jar;D:\projects\repo\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;D:\projects\repo\org\springframework\boot\spring-boot-starter-web\2.3.2.RELEASE\spring-boot-starter-web-2.3.2.RELEASE.jar;D:\projects\repo\org\springframework\boot\spring-boot-starter-json\2.3.2.RELEASE\spring-boot-starter-json-2.3.2.RELEASE.jar;D:\projects\repo\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.1\jackson-datatype-jdk8-2.11.1.jar;D:\projects\repo\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.1\jackson-module-parameter-names-2.11.1.jar;D:\projects\repo\org\springframework\boot\spring-boot-starter-tomcat\2.3.2.RELEASE\spring-boot-starter-tomcat-2.3.2.RELEASE.jar;D:\projects\repo\org\apache\tomcat\embed\tomcat-embed-core\9.0.37\tomcat-embed-core-9.0.37.jar;D:\projects\repo\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.37\tomcat-embed-websocket-9.0.37.jar;D:\projects\repo\org\springframework\spring-webmvc\5.2.8.RELEASE\spring-webmvc-5.2.8.RELEASE.jar;D:\projects\repo\org\springframework\boot\spring-boot-starter-validation\2.3.2.RELEASE\spring-boot-starter-validation-2.3.2.RELEASE.jar;D:\projects\repo\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar;D:\projects\repo\org\hibernate\validator\hibernate-validator\6.1.5.Final\hibernate-validator-6.1.5.Final.jar;D:\projects\repo\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;D:\projects\repo\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;D:\projects\repo\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;D:\projects\repo\org\springframework\security\spring-security-crypto\5.3.3.RELEASE\spring-security-crypto-5.3.3.RELEASE.jar;D:\projects\repo\org\springframework\security\spring-security-rsa\1.0.9.RELEASE\spring-security-rsa-1.0.9.RELEASE.jar;D:\projects\repo\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;D:\projects\repo\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;D:\projects\repo\org\eclipse\jgit\org.eclipse.jgit\5.1.3.201810200350-r\org.eclipse.jgit-5.1.3.201810200350-r.jar;D:\projects\repo\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar;D:\projects\repo\com\jcraft\jzlib\1.1.1\jzlib-1.1.1.jar;D:\projects\repo\com\googlecode\javaewah\JavaEWAH\1.1.6\JavaEWAH-1.1.6.jar;D:\projects\repo\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;D:\projects\repo\org\eclipse\jgit\org.eclipse.jgit.http.apache\5.1.3.201810200350-r\org.eclipse.jgit.http.apache-5.1.3.201810200350-r.jar;D:\projects\repo\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;D:\projects\repo\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar;D:\projects\repo\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.11.1\jackson-dataformat-yaml-2.11.1.jar;D:\projects\repo\com\fasterxml\jackson\core\jackson-core\2.11.1\jackson-core-2.11.1.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-starter-netflix-eureka-client\2.2.4.RELEASE\spring-cloud-starter-netflix-eureka-client-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-hystrix\2.2.4.RELEASE\spring-cloud-netflix-hystrix-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\boot\spring-boot-starter-aop\2.3.2.RELEASE\spring-boot-starter-aop-2.3.2.RELEASE.jar;D:\projects\repo\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-eureka-client\2.2.4.RELEASE\spring-cloud-netflix-eureka-client-2.2.4.RELEASE.jar;D:\projects\repo\com\netflix\eureka\eureka-client\1.9.25\eureka-client-1.9.25.jar;D:\projects\repo\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar;D:\projects\repo\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\projects\repo\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar;D:\projects\repo\com\netflix\archaius\archaius-core\0.7.6\archaius-core-0.7.6.jar;D:\projects\repo\com\google\guava\guava\29.0-jre\guava-29.0-jre.jar;D:\projects\repo\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;D:\projects\repo\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;D:\projects\repo\org\checkerframework\checker-qual\2.11.1\checker-qual-2.11.1.jar;D:\projects\repo\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;D:\projects\repo\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;D:\projects\repo\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\projects\repo\com\netflix\servo\servo-core\0.12.21\servo-core-0.12.21.jar;D:\projects\repo\com\sun\jersey\jersey-core\1.19.1\jersey-core-1.19.1.jar;D:\projects\repo\com\sun\jersey\jersey-client\1.19.1\jersey-client-1.19.1.jar;D:\projects\repo\com\sun\jersey\contribs\jersey-apache-client4\1.19.1\jersey-apache-client4-1.19.1.jar;D:\projects\repo\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;D:\projects\repo\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\projects\repo\com\google\inject\guice\4.1.0\guice-4.1.0.jar;D:\projects\repo\javax\inject\javax.inject\1\javax.inject-1.jar;D:\projects\repo\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\projects\repo\com\netflix\eureka\eureka-core\1.9.25\eureka-core-1.9.25.jar;D:\projects\repo\com\fasterxml\woodstox\woodstox-core\5.3.0\woodstox-core-5.3.0.jar;D:\projects\repo\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-starter-netflix-archaius\2.2.4.RELEASE\spring-cloud-starter-netflix-archaius-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-ribbon\2.2.4.RELEASE\spring-cloud-netflix-ribbon-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-netflix-archaius\2.2.4.RELEASE\spring-cloud-netflix-archaius-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-starter-netflix-ribbon\2.2.4.RELEASE\spring-cloud-starter-netflix-ribbon-2.2.4.RELEASE.jar;D:\projects\repo\com\netflix\ribbon\ribbon\2.3.0\ribbon-2.3.0.jar;D:\projects\repo\com\netflix\ribbon\ribbon-core\2.3.0\ribbon-core-2.3.0.jar;D:\projects\repo\com\netflix\ribbon\ribbon-httpclient\2.3.0\ribbon-httpclient-2.3.0.jar;D:\projects\repo\com\netflix\ribbon\ribbon-loadbalancer\2.3.0\ribbon-loadbalancer-2.3.0.jar;D:\projects\repo\io\reactivex\rxjava\1.3.8\rxjava-1.3.8.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-starter-loadbalancer\2.2.4.RELEASE\spring-cloud-starter-loadbalancer-2.2.4.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-loadbalancer\2.2.4.RELEASE\spring-cloud-loadbalancer-2.2.4.RELEASE.jar;D:\projects\repo\io\projectreactor\addons\reactor-extra\3.3.3.RELEASE\reactor-extra-3.3.3.RELEASE.jar;D:\projects\repo\org\springframework\boot\spring-boot-starter-cache\2.3.2.RELEASE\spring-boot-starter-cache-2.3.2.RELEASE.jar;D:\projects\repo\org\springframework\spring-context-support\5.2.8.RELEASE\spring-context-support-5.2.8.RELEASE.jar;D:\projects\repo\com\stoyanr\evictor\1.0.0\evictor-1.0.0.jar;D:\projects\repo\com\netflix\ribbon\ribbon-eureka\2.3.0\ribbon-eureka-2.3.0.jar;D:\projects\repo\com\thoughtworks\xstream\xstream\1.4.11.1\xstream-1.4.11.1.jar;D:\projects\repo\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;D:\projects\repo\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-stream-binder-rabbit\3.0.7.RELEASE\spring-cloud-stream-binder-rabbit-3.0.7.RELEASE.jar;D:\projects\repo\org\springframework\cloud\spring-cloud-stream-binder-rabbit-core\3.0.7.RELEASE\spring-cloud-stream-binder-rabbit-core-3.0.7.RELEASE.jar;D:\projects\repo\org\springframework\integration\spring-integration-amqp\5.3.2.RELEASE\spring-integration-amqp-5.3.2.RELEASE.jar;D:\projects\repo\com\rabbitmq\http-client\2.1.0.RELEASE\http-client-2.1.0.RELEASE.jar;D:\projects\repo\org\springframework\integration\spring-integration-jmx\5.3.2.RELEASE\spring-integration-jmx-5.3.2.RELEASE.jar;D:\projects\repo\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;D:\projects\repo\commons-codec\commons-codec\1.14\commons-codec-1.14.jar;D:\projects\repo\org\springframework\spring-core\5.2.8.RELEASE\spring-core-5.2.8.RELEASE.jar;D:\projects\repo\org\springframework\spring-jcl\5.2.8.RELEASE\spring-jcl-5.2.8.RELEASE.jar;D:\projects\repo\org\springframework\boot\spring-boot-autoconfigure\2.3.2.RELEASE\spring-boot-autoconfigure-2.3.2.RELEASE.jar;D:\projects\repo\org\springframework\boot\spring-boot\2.3.2.RELEASE\spring-boot-2.3.2.RELEASE.jar; -sourcepath D:\projects\Demos\customize\SpringConfig\Server\src\main\java;D:\projects\Demos\customize\SpringConfig\Server\target\generated-sources\annotations; -s D:\projects\Demos\customize\SpringConfig\Server\target\generated-sources\annotations -g -parameters -nowarn -target 1.8 -source 1.8 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 1 source file to D:\projects\Demos\customize\SpringConfig\Server\target\classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.2:tree (default-cli) @ SpringConfigServer ---
+[DEBUG] Using mirror gagcmaven (http://192.168.10.87:8081/repository/maven-public/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=582300, ConflictMarker.markTime=386500, ConflictMarker.nodeCount=469, ConflictIdSorter.graphTime=404500, ConflictIdSorter.topsortTime=65300, ConflictIdSorter.conflictIdCount=85, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5107300, ConflictResolver.conflictItemCount=216, DefaultDependencyCollector.collectTime=868750300, DefaultDependencyCollector.transformTime=6589900}
+[DEBUG] org.apache.maven.plugins:maven-dependency-plugin:jar:3.1.2:
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:2.0.0:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:3.0.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.7.4:compile
+[DEBUG]    commons-io:commons-io:jar:2.6:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.9:compile
+[DEBUG]       org.apache.maven.doxia:doxia-logging-api:jar:1.9:compile
+[DEBUG]    org.apache.maven.doxia:doxia-core:jar:1.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.7.1:compile
+[DEBUG]          org.apache.xbean:xbean-reflect:jar:3.7:compile
+[DEBUG]          com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.5:compile
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.5.8:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]       org.apache.httpcomponents:httpcore:jar:4.4.11:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.9:compile
+[DEBUG]       org.apache.maven.doxia:doxia-skin-model:jar:1.9:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.9:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml5:jar:1.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10:compile
+[DEBUG]       org.codehaus.plexus:plexus-velocity:jar:1.2:compile
+[DEBUG]       org.apache.velocity:velocity:jar:1.7:compile
+[DEBUG]       org.apache.velocity:velocity-tools:jar:2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.8:compile
+[DEBUG]          commons-chain:commons-chain:jar:1.1:compile
+[DEBUG]          commons-validator:commons-validator:jar:1.3.1:compile
+[DEBUG]          dom4j:dom4j:jar:1.1:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]          sslext:sslext:jar:1.2-0:compile
+[DEBUG]          org.apache.struts:struts-core:jar:1.3.8:compile
+[DEBUG]             antlr:antlr:jar:2.7.2:compile
+[DEBUG]          org.apache.struts:struts-taglib:jar:1.3.8:compile
+[DEBUG]          org.apache.struts:struts-tiles:jar:1.3.8:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:4.2.2:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.20:compile
+[DEBUG]       org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]       org.tukaani:xz:jar:1.8:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.3.0:compile
+[DEBUG]    org.apache.maven.shared:file-management:jar:3.0.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-io:jar:3.0.0:compile
+[DEBUG]          org.apache.maven:maven-compat:jar:3.0:compile
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:2.10:compile
+[DEBUG]    org.codehaus.plexus:plexus-io:jar:3.2.0:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-analyzer:jar:1.11.1:compile
+[DEBUG]       org.ow2.asm:asm:jar:7.3.1:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:3.0.1:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-artifact-transfer:jar:0.11.0:compile
+[DEBUG]       commons-codec:commons-codec:jar:1.11:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    commons-collections:commons-collections:jar:3.2.2:compile
+[DEBUG]    classworlds:classworlds:jar:1.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:3.1.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:3.1.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:3.1.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-dependency-plugin:jar:3.1.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:2.0.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:3.0.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.7.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.9
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.7
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.5
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.5.8
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.4.11
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-skin-model:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml5:jar:1.9
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.2
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.7
+[DEBUG]   Included: org.apache.velocity:velocity-tools:jar:2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.8
+[DEBUG]   Included: commons-chain:commons-chain:jar:1.1
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.3.1
+[DEBUG]   Included: dom4j:dom4j:jar:1.1
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: sslext:sslext:jar:1.2-0
+[DEBUG]   Included: org.apache.struts:struts-core:jar:1.3.8
+[DEBUG]   Included: antlr:antlr:jar:2.7.2
+[DEBUG]   Included: org.apache.struts:struts-taglib:jar:1.3.8
+[DEBUG]   Included: org.apache.struts:struts-tiles:jar:1.3.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:4.2.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.20
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.3.0
+[DEBUG]   Included: org.apache.maven.shared:file-management:jar:3.0.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-io:jar:3.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-analyzer:jar:1.11.1
+[DEBUG]   Included: org.ow2.asm:asm:jar:7.3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:3.0.1
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-artifact-transfer:jar:0.11.0
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.11
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-dependency-plugin:3.1.2:tree from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-dependency-plugin:3.1.2, parent: sun.misc.Launcher$AppClassLoader@25154f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-dependency-plugin:3.1.2:tree' with basic configurator -->
+[DEBUG]   (f) appendOutput = false
+[DEBUG]   (f) outputType = text
+[DEBUG]   (f) project = MavenProject: cn.m:SpringConfigServer:0.0.1-SNAPSHOT @ D:\projects\Demos\customize\SpringConfig\Server\pom.xml
+[DEBUG]   (f) reactorProjects = [MavenProject: cn.m:SpringConfigServer:0.0.1-SNAPSHOT @ D:\projects\Demos\customize\SpringConfig\Server\pom.xml]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4c5cbe
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) tokens = standard
+[DEBUG]   (f) verbose = true
+[DEBUG] -- end configuration --
+[INFO] Verbose not supported since maven-dependency-plugin 3.0
+[DEBUG] building maven31 dependency graph for cn.m:SpringConfigServer:jar:0.0.1-SNAPSHOT with Maven31DependencyGraphBuilder
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1124700, ConflictMarker.markTime=710000, ConflictMarker.nodeCount=663, ConflictIdSorter.graphTime=585800, ConflictIdSorter.topsortTime=120400, ConflictIdSorter.conflictIdCount=175, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=14889500, ConflictResolver.conflictItemCount=383, DefaultDependencyCollector.collectTime=92885800, DefaultDependencyCollector.transformTime=17450000}
+[DEBUG] cn.m:SpringConfigServer:jar:0.0.1-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-amqp:jar:2.3.2.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.2.3:compile (version managed from 1.2.3)
+[DEBUG]                ch.qos.logback:logback-core:jar:1.2.3:compile (version managed from 1.2.3)
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile (version managed from 2.13.3)
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.13.3:compile (version managed from 2.13.3)
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:1.7.30:compile (version managed from 1.7.30)
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile (version managed from 1.3.5)
+[DEBUG]       org.springframework:spring-messaging:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          org.springframework:spring-beans:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]       org.springframework.amqp:spring-rabbit:jar:2.2.9.RELEASE:compile (version managed from 2.2.9.RELEASE)
+[DEBUG]          com.rabbitmq:amqp-client:jar:5.9.0:compile (version managed from 5.7.3)
+[DEBUG]          org.springframework.amqp:spring-amqp:jar:2.2.9.RELEASE:compile (version managed from 2.2.9.RELEASE)
+[DEBUG]          org.springframework:spring-context:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]             org.springframework:spring-expression:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          org.springframework:spring-tx:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]    org.springframework.cloud:spring-cloud-bus:jar:2.2.3.RELEASE:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-starter:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-context:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-commons:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]       org.springframework.cloud:spring-cloud-stream:jar:3.0.7.RELEASE:compile (version managed from 3.0.7.RELEASE)
+[DEBUG]          org.springframework.retry:spring-retry:jar:1.2.5.RELEASE:compile (version managed from 1.2.5.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-function-context:jar:3.0.9.RELEASE:compile (version managed from 3.0.9.RELEASE)
+[DEBUG]             net.jodah:typetools:jar:0.6.2:compile
+[DEBUG]             org.springframework.cloud:spring-cloud-function-core:jar:3.0.9.RELEASE:compile (version managed from 3.0.9.RELEASE)
+[DEBUG]       org.springframework.integration:spring-integration-core:jar:5.3.2.RELEASE:compile (version managed from 5.3.2.RELEASE)
+[DEBUG]          org.springframework:spring-aop:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          io.projectreactor:reactor-core:jar:3.3.8.RELEASE:compile (version managed from 3.3.8.RELEASE)
+[DEBUG]             org.reactivestreams:reactive-streams:jar:1.0.3:compile (version managed from 1.0.3)
+[DEBUG]    org.springframework.cloud:spring-cloud-config-server:jar:2.2.4.RELEASE:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-config-client:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework:spring-web:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]       org.springframework.boot:spring-boot-starter-actuator:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             org.springframework.boot:spring-boot-actuator:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]          io.micrometer:micrometer-core:jar:1.5.3:compile (version managed from 1.5.3)
+[DEBUG]             org.hdrhistogram:HdrHistogram:jar:2.1.12:compile
+[DEBUG]             org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[DEBUG]       org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-json:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]             com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]          org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.37:compile (version managed from 9.0.37)
+[DEBUG]             org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.37:compile (version managed from 9.0.37)
+[DEBUG]          org.springframework:spring-webmvc:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]       org.springframework.boot:spring-boot-starter-validation:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]          org.glassfish:jakarta.el:jar:3.0.3:compile (version managed from 3.0.3)
+[DEBUG]          org.hibernate.validator:hibernate-validator:jar:6.1.5.Final:compile (version managed from 6.1.5.Final)
+[DEBUG]             jakarta.validation:jakarta.validation-api:jar:2.0.2:compile (version managed from 2.0.2)
+[DEBUG]             org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile (version managed from 3.3.2.Final)
+[DEBUG]             com.fasterxml:classmate:jar:1.5.1:compile (version managed from 1.3.4)
+[DEBUG]       org.springframework.security:spring-security-crypto:jar:5.3.3.RELEASE:compile (version managed from 5.3.3.RELEASE)
+[DEBUG]       org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE:compile (version managed from 1.0.9.RELEASE) (exclusions managed)
+[DEBUG]          org.bouncycastle:bcpkix-jdk15on:jar:1.64:compile
+[DEBUG]             org.bouncycastle:bcprov-jdk15on:jar:1.64:compile
+[DEBUG]       org.eclipse.jgit:org.eclipse.jgit:jar:5.1.3.201810200350-r:compile (version managed from 5.1.3.201810200350-r)
+[DEBUG]          com.jcraft:jsch:jar:0.1.54:compile (version managed from 0.1.54)
+[DEBUG]          com.jcraft:jzlib:jar:1.1.1:compile
+[DEBUG]          com.googlecode.javaewah:JavaEWAH:jar:1.1.6:compile
+[DEBUG]          org.slf4j:slf4j-api:jar:1.7.30:compile (version managed from 1.7.2)
+[DEBUG]       org.eclipse.jgit:org.eclipse.jgit.http.apache:jar:5.1.3.201810200350-r:compile (version managed from 5.1.3.201810200350-r)
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.4.13:compile (version managed from 4.4.9)
+[DEBUG]       org.yaml:snakeyaml:jar:1.26:compile (version managed from 1.26)
+[DEBUG]       com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.11.1:compile (version managed from 2.11.1)
+[DEBUG]    org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.4.RELEASE:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-aop:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             org.aspectj:aspectjweaver:jar:1.9.6:compile (version managed from 1.9.6)
+[DEBUG]       org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]       com.netflix.eureka:eureka-client:jar:1.9.25:compile (version managed from 1.9.25) (exclusions managed)
+[DEBUG]          org.codehaus.jettison:jettison:jar:1.3.7:compile
+[DEBUG]             stax:stax-api:jar:1.0.1:compile
+[DEBUG]          com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:compile (version managed from 0.3.0)
+[DEBUG]             com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[DEBUG]                commons-jxpath:commons-jxpath:jar:1.3:runtime
+[DEBUG]                joda-time:joda-time:jar:2.3:runtime
+[DEBUG]                org.antlr:antlr-runtime:jar:3.4:runtime
+[DEBUG]                   org.antlr:stringtemplate:jar:3.2.1:runtime
+[DEBUG]                   antlr:antlr:jar:2.7.7:runtime (version managed from 2.7.7)
+[DEBUG]                com.google.code.gson:gson:jar:2.8.6:runtime (version managed from 2.1)
+[DEBUG]             org.apache.commons:commons-math:jar:2.2:runtime
+[DEBUG]          com.netflix.archaius:archaius-core:jar:0.7.6:compile (version managed from 0.7.6) (exclusions managed)
+[DEBUG]             com.google.guava:guava:jar:29.0-jre:compile (version managed from 16.0)
+[DEBUG]                com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]                com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]                org.checkerframework:checker-qual:jar:2.11.1:compile
+[DEBUG]                com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[DEBUG]                com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[DEBUG]          javax.ws.rs:jsr311-api:jar:1.1.1:compile
+[DEBUG]          com.netflix.servo:servo-core:jar:0.12.21:compile (version managed from 0.12.21) (exclusions managed)
+[DEBUG]          com.sun.jersey:jersey-core:jar:1.19.1:compile
+[DEBUG]          com.sun.jersey:jersey-client:jar:1.19.1:compile
+[DEBUG]          com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:compile
+[DEBUG]          commons-configuration:commons-configuration:jar:1.10:compile
+[DEBUG]             commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]          com.google.inject:guice:jar:4.1.0:compile
+[DEBUG]             javax.inject:javax.inject:jar:1:compile
+[DEBUG]             aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]       com.netflix.eureka:eureka-core:jar:1.9.25:compile (version managed from 1.9.25) (exclusions managed)
+[DEBUG]          com.fasterxml.woodstox:woodstox-core:jar:5.3.0:compile
+[DEBUG]             org.codehaus.woodstox:stax2-api:jar:4.2:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          com.netflix.ribbon:ribbon:jar:2.3.0:compile (version managed from 2.3.0) (exclusions managed)
+[DEBUG]             com.netflix.ribbon:ribbon-transport:jar:2.3.0:runtime
+[DEBUG]                io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[DEBUG]                io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[DEBUG]             com.netflix.hystrix:hystrix-core:jar:1.5.18:runtime (version managed from 1.4.3) (exclusions managed)
+[DEBUG]             io.reactivex:rxnetty:jar:0.4.9:runtime
+[DEBUG]          com.netflix.ribbon:ribbon-core:jar:2.3.0:compile (version managed from 2.3.0) (exclusions managed)
+[DEBUG]          com.netflix.ribbon:ribbon-httpclient:jar:2.3.0:compile (version managed from 2.3.0) (exclusions managed)
+[DEBUG]             commons-collections:commons-collections:jar:3.2.2:runtime
+[DEBUG]             com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime (version managed from 0.1.1)
+[DEBUG]          com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0:compile (version managed from 2.3.0) (exclusions managed)
+[DEBUG]             com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[DEBUG]          io.reactivex:rxjava:jar:1.3.8:compile (version managed from 1.3.8)
+[DEBUG]       org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]          org.springframework.cloud:spring-cloud-loadbalancer:jar:2.2.4.RELEASE:compile (version managed from 2.2.4.RELEASE)
+[DEBUG]             io.projectreactor.addons:reactor-extra:jar:3.3.3.RELEASE:compile (version managed from 3.3.3.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-cache:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[DEBUG]             org.springframework:spring-context-support:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          com.stoyanr:evictor:jar:1.0.0:compile
+[DEBUG]       com.netflix.ribbon:ribbon-eureka:jar:2.3.0:compile (version managed from 2.3.0) (exclusions managed)
+[DEBUG]       com.thoughtworks.xstream:xstream:jar:1.4.11.1:compile
+[DEBUG]          xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]          xpp3:xpp3_min:jar:1.1.4c:compile
+[DEBUG]    org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:3.0.7.RELEASE:compile
+[DEBUG]       org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:3.0.7.RELEASE:compile (version managed from 3.0.7.RELEASE)
+[DEBUG]          org.springframework.integration:spring-integration-amqp:jar:5.3.2.RELEASE:compile (version managed from 5.3.2.RELEASE)
+[DEBUG]          com.rabbitmq:http-client:jar:2.1.0.RELEASE:compile
+[DEBUG]       org.springframework.integration:spring-integration-jmx:jar:5.3.2.RELEASE:compile (version managed from 5.3.2.RELEASE)
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.5.12:compile (version managed from 4.5.6) (exclusions managed)
+[DEBUG]          commons-codec:commons-codec:jar:1.14:compile (version managed from 1.11)
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:2.3.2.RELEASE:test (version managed from 2.3.2.RELEASE)
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.2.RELEASE:test (version managed from 2.3.2.RELEASE)
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.4.0:test (version managed from 2.4.0)
+[DEBUG]          net.minidev:json-smart:jar:2.3:test (version managed from 2.3)
+[DEBUG]             net.minidev:accessors-smart:jar:1.2:test
+[DEBUG]                org.ow2.asm:asm:jar:5.0.4:test
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test (version managed from 2.3.3)
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:1.2.2:test (version managed from 1.2.2)
+[DEBUG]       org.assertj:assertj-core:jar:3.16.1:test (version managed from 3.16.1)
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:test (version managed from 2.2)
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]             org.apiguardian:apiguardian-api:jar:1.1.0:test
+[DEBUG]             org.opentest4j:opentest4j:jar:1.2.0:test
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.6.2:test (version managed from 1.6.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.6.2:test (version managed from 1.6.2)
+[DEBUG]       org.mockito:mockito-core:jar:3.3.3:test (version managed from 3.3.3)
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.10.13:test (version managed from 1.10.5)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.10.13:test (version managed from 1.10.5)
+[DEBUG]          org.objenesis:objenesis:jar:2.6:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:3.3.3:test (version managed from 3.3.3)
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.0:test (version managed from 1.5.0)
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]          org.springframework:spring-jcl:jar:5.2.8.RELEASE:compile (version managed from 5.2.8.RELEASE)
+[DEBUG]       org.springframework:spring-test:jar:5.2.8.RELEASE:test (version managed from 5.2.8.RELEASE)
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.7.0:test (version managed from 2.7.0)
+[DEBUG]    org.springframework.boot:spring-boot-autoconfigure:jar:2.3.2.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot:jar:2.3.2.RELEASE:compile (version managed from 2.3.2.RELEASE)
+[INFO] cn.m:SpringConfigServer:jar:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-amqp:jar:2.3.2.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.3.2.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.13.3:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.30:compile
+[INFO] |  |  \- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO] |  +- org.springframework:spring-messaging:jar:5.2.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.2.8.RELEASE:compile
+[INFO] |  \- org.springframework.amqp:spring-rabbit:jar:2.2.9.RELEASE:compile
+[INFO] |     +- com.rabbitmq:amqp-client:jar:5.9.0:compile
+[INFO] |     +- org.springframework.amqp:spring-amqp:jar:2.2.9.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.2.8.RELEASE:compile
+[INFO] |     |  \- org.springframework:spring-expression:jar:5.2.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-tx:jar:5.2.8.RELEASE:compile
+[INFO] +- org.springframework.cloud:spring-cloud-bus:jar:2.2.3.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.2.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.2.4.RELEASE:compile
+[INFO] |  |  \- org.springframework.cloud:spring-cloud-commons:jar:2.2.4.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-stream:jar:3.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.retry:spring-retry:jar:1.2.5.RELEASE:compile
+[INFO] |  |  \- org.springframework.cloud:spring-cloud-function-context:jar:3.0.9.RELEASE:compile
+[INFO] |  |     +- net.jodah:typetools:jar:0.6.2:compile
+[INFO] |  |     \- org.springframework.cloud:spring-cloud-function-core:jar:3.0.9.RELEASE:compile
+[INFO] |  \- org.springframework.integration:spring-integration-core:jar:5.3.2.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.2.8.RELEASE:compile
+[INFO] |     \- io.projectreactor:reactor-core:jar:3.3.8.RELEASE:compile
+[INFO] |        \- org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[INFO] +- org.springframework.cloud:spring-cloud-config-server:jar:2.2.4.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-config-client:jar:2.2.4.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-web:jar:5.2.8.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.11.1:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.11.1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-actuator:jar:2.3.2.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.2.RELEASE:compile
+[INFO] |  |  |  +- org.springframework.boot:spring-boot-actuator:jar:2.3.2.RELEASE:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.1:compile
+[INFO] |  |  \- io.micrometer:micrometer-core:jar:1.5.3:compile
+[INFO] |  |     +- org.hdrhistogram:HdrHistogram:jar:2.1.12:compile
+[INFO] |  |     \- org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-json:jar:2.3.2.RELEASE:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.1:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.1:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.2.RELEASE:compile
+[INFO] |  |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.37:compile
+[INFO] |  |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.37:compile
+[INFO] |  |  \- org.springframework:spring-webmvc:jar:5.2.8.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-validation:jar:2.3.2.RELEASE:compile
+[INFO] |  |  +- org.glassfish:jakarta.el:jar:3.0.3:compile
+[INFO] |  |  \- org.hibernate.validator:hibernate-validator:jar:6.1.5.Final:compile
+[INFO] |  |     +- jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[INFO] |  |     +- org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile
+[INFO] |  |     \- com.fasterxml:classmate:jar:1.5.1:compile
+[INFO] |  +- org.springframework.security:spring-security-crypto:jar:5.3.3.RELEASE:compile
+[INFO] |  +- org.springframework.security:spring-security-rsa:jar:1.0.9.RELEASE:compile
+[INFO] |  |  \- org.bouncycastle:bcpkix-jdk15on:jar:1.64:compile
+[INFO] |  |     \- org.bouncycastle:bcprov-jdk15on:jar:1.64:compile
+[INFO] |  +- org.eclipse.jgit:org.eclipse.jgit:jar:5.1.3.201810200350-r:compile
+[INFO] |  |  +- com.jcraft:jsch:jar:0.1.54:compile
+[INFO] |  |  +- com.jcraft:jzlib:jar:1.1.1:compile
+[INFO] |  |  +- com.googlecode.javaewah:JavaEWAH:jar:1.1.6:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.30:compile
+[INFO] |  +- org.eclipse.jgit:org.eclipse.jgit.http.apache:jar:5.1.3.201810200350-r:compile
+[INFO] |  |  \- org.apache.httpcomponents:httpcore:jar:4.4.13:compile
+[INFO] |  +- org.yaml:snakeyaml:jar:1.26:compile
+[INFO] |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.11.1:compile
+[INFO] |     \- com.fasterxml.jackson.core:jackson-core:jar:2.11.1:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.2.4.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.2.4.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.3.2.RELEASE:compile
+[INFO] |  |     \- org.aspectj:aspectjweaver:jar:1.9.6:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.2.4.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.9.25:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:compile
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:compile
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:compile
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.3:runtime
+[INFO] |  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  |  \- com.google.code.gson:gson:jar:2.8.6:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  |  \- com.google.guava:guava:jar:29.0-jre:compile
+[INFO] |  |  |     +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |  |  |     +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  |  |     +- org.checkerframework:checker-qual:jar:2.11.1:compile
+[INFO] |  |  |     +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] |  |  |     \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+[INFO] |  |  +- com.netflix.servo:servo-core:jar:0.12.21:compile
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:compile
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:compile
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:compile
+[INFO] |  |  +- commons-configuration:commons-configuration:jar:1.10:compile
+[INFO] |  |  |  \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  |  \- com.google.inject:guice:jar:4.1.0:compile
+[INFO] |  |     +- javax.inject:javax.inject:jar:1:compile
+[INFO] |  |     \- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.9.25:compile
+[INFO] |  |  \- com.fasterxml.woodstox:woodstox-core:jar:5.3.0:compile
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:4.2:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.2.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.2.4.RELEASE:compile
+[INFO] |  |  \- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.2.4.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.2.4.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.3.0:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.3.0:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  +- com.netflix.hystrix:hystrix-core:jar:1.5.18:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.3.0:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.3.0:compile
+[INFO] |  |  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.3.0:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:2.2.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-loadbalancer:jar:2.2.4.RELEASE:compile
+[INFO] |  |  |  \- io.projectreactor.addons:reactor-extra:jar:3.3.3.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-cache:jar:2.3.2.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-context-support:jar:5.2.8.RELEASE:compile
+[INFO] |  |  \- com.stoyanr:evictor:jar:1.0.0:compile
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.3.0:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.11.1:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] +- org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:3.0.7.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:3.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.integration:spring-integration-amqp:jar:5.3.2.RELEASE:compile
+[INFO] |  |  \- com.rabbitmq:http-client:jar:2.1.0.RELEASE:compile
+[INFO] |  +- org.springframework.integration:spring-integration-jmx:jar:5.3.2.RELEASE:compile
+[INFO] |  \- org.apache.httpcomponents:httpclient:jar:4.5.12:compile
+[INFO] |     \- commons-codec:commons-codec:jar:1.14:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.3.2.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.2.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  \- net.minidev:json-smart:jar:2.3:test
+[INFO] |  |     \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] |  |        \- org.ow2.asm:asm:jar:5.0.4:test
+[INFO] |  +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test
+[INFO] |  |  \- jakarta.activation:jakarta.activation-api:jar:1.2.2:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.16.1:test
+[INFO] |  +- org.hamcrest:hamcrest:jar:2.2:test
+[INFO] |  +- org.junit.jupiter:junit-jupiter:jar:5.6.2:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test
+[INFO] |  |  |  +- org.apiguardian:apiguardian-api:jar:1.1.0:test
+[INFO] |  |  |  +- org.opentest4j:opentest4j:jar:1.2.0:test
+[INFO] |  |  |  \- org.junit.platform:junit-platform-commons:jar:1.6.2:test
+[INFO] |  |  +- org.junit.jupiter:junit-jupiter-params:jar:5.6.2:test
+[INFO] |  |  \- org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test
+[INFO] |  |     \- org.junit.platform:junit-platform-engine:jar:1.6.2:test
+[INFO] |  +- org.mockito:mockito-core:jar:3.3.3:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.10.13:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.10.13:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.mockito:mockito-junit-jupiter:jar:3.3.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:5.2.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.2.8.RELEASE:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.2.8.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.7.0:test
+[INFO] \- org.springframework.boot:spring-boot-autoconfigure:jar:2.3.2.RELEASE:compile
+[INFO]    \- org.springframework.boot:spring-boot:jar:2.3.2.RELEASE:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.329 s
+[INFO] Finished at: 2020-08-12T08:58:11+08:00
+[INFO] ------------------------------------------------------------------------
